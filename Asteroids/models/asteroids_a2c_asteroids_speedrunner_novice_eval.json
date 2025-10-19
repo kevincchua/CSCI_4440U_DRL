@@ -1,0 +1,287 @@
+[
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1169
+    ],
+    "scores": [
+      1430
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      41
+    ],
+    "asteroids_destroyed": [
+      21
+    ],
+    "hyperspace_used": [
+      0
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      5.611008147254165
+    ],
+    "mean_targeting": [
+      1.0071515330453853
+    ],
+    "mean_distances": [
+      135.10385377287272
+    ],
+    "accuracies": [
+      0.0
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      116.89999999999998
+    ],
+    "episode_max_reward": [
+      0.1
+    ],
+    "episode_min_reward": [
+      0.1
+    ],
+    "episode_mean_reward": [
+      0.09999999999999998
+    ],
+    "reward_rates": [
+      0.09999999999999998
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1550
+    ],
+    "scores": [
+      2180
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      44
+    ],
+    "asteroids_destroyed": [
+      28
+    ],
+    "hyperspace_used": [
+      0
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      12.161834106349175
+    ],
+    "mean_targeting": [
+      0.9813123611117442
+    ],
+    "mean_distances": [
+      188.54805983041894
+    ],
+    "accuracies": [
+      0.001935483870967742
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      155.0
+    ],
+    "episode_max_reward": [
+      0.1
+    ],
+    "episode_min_reward": [
+      0.1
+    ],
+    "episode_mean_reward": [
+      0.1
+    ],
+    "reward_rates": [
+      0.1
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2024
+    ],
+    "scores": [
+      1210
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      37
+    ],
+    "asteroids_destroyed": [
+      17
+    ],
+    "hyperspace_used": [
+      0
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      8.51183240037603
+    ],
+    "mean_targeting": [
+      0.929262387071568
+    ],
+    "mean_distances": [
+      188.9873418269072
+    ],
+    "accuracies": [
+      0.0004940711462450593
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      202.40000000000003
+    ],
+    "episode_max_reward": [
+      0.1
+    ],
+    "episode_min_reward": [
+      0.1
+    ],
+    "episode_mean_reward": [
+      0.10000000000000002
+    ],
+    "reward_rates": [
+      0.10000000000000002
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1162
+    ],
+    "scores": [
+      1980
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      46
+    ],
+    "asteroids_destroyed": [
+      27
+    ],
+    "hyperspace_used": [
+      0
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      8.855860964194735
+    ],
+    "mean_targeting": [
+      0.5841162774361965
+    ],
+    "mean_distances": [
+      194.28881906472145
+    ],
+    "accuracies": [
+      0.0025817555938037868
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      116.19999999999999
+    ],
+    "episode_max_reward": [
+      0.1
+    ],
+    "episode_min_reward": [
+      0.1
+    ],
+    "episode_mean_reward": [
+      0.09999999999999999
+    ],
+    "reward_rates": [
+      0.09999999999999999
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      658
+    ],
+    "scores": [
+      3160
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      56
+    ],
+    "asteroids_destroyed": [
+      44
+    ],
+    "hyperspace_used": [
+      0
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      1.182745864190229
+    ],
+    "mean_targeting": [
+      0.8062795023939539
+    ],
+    "mean_distances": [
+      168.27872066327762
+    ],
+    "accuracies": [
+      0.007598784194528876
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      65.79999999999998
+    ],
+    "episode_max_reward": [
+      0.1
+    ],
+    "episode_min_reward": [
+      0.1
+    ],
+    "episode_mean_reward": [
+      0.09999999999999998
+    ],
+    "reward_rates": [
+      0.09999999999999998
+    ]
+  }
+]
