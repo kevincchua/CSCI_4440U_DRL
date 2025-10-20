@@ -5,12 +5,18 @@ class AsteroidsBalanceStats:
     """
     Collects per-episode and aggregate metrics for Asteroids RL evaluation.
     Compatible with collector/evaluate.py.
+
+    Metrics:
+      - episode_accuracy: asteroids destroyed / bullets fired (per episode, calculated at termination)
+      - episode_score_per_min: score / episode duration (min)
+      - episode_reward_per_min: reward / episode duration (min)
+      - episode_score_reward_ratio: score / reward (per episode)
     """
+
     def __init__(self):
         self.reset()
 
     def reset(self):
-        # Per-episode aggregates
         self.episode_steps = []
         self.scores = []
         self.levels = []
@@ -22,18 +28,22 @@ class AsteroidsBalanceStats:
         self.mean_speeds = []
         self.mean_targeting = []
         self.mean_distances = []
-        self.accuracies = []
         self.deaths_by = []
         self.episodes = 0
 
-        # Reward statistics
-        self.episode_rewards = []          # Total reward per episode
-        self.episode_max_reward = []       # Max single-step reward in episode
-        self.episode_min_reward = []       # Min single-step reward in episode
-        self.episode_mean_reward = []      # Mean per-step reward in episode
-        self.reward_rates = []             # Total reward / episode length
+        self.episode_rewards = []
+        self.episode_max_reward = []
+        self.episode_min_reward = []
+        self.episode_mean_reward = []
+        self.reward_rates = []
 
-        # per-step temp
+        # New metrics
+        self.episode_accuracy = []
+        self.episode_score_per_min = []
+        self.episode_reward_per_min = []
+        self.episode_score_reward_ratio = []
+
+        # temp step storage
         self._cur_steps = 0
         self._cur_score = 0
         self._cur_level = 0
@@ -45,7 +55,6 @@ class AsteroidsBalanceStats:
         self._cur_speeds = []
         self._cur_targeting = []
         self._cur_distances = []
-        self._cur_accuracy = []
         self._cur_rewards = []
         self._cur_death_by = ""
 
@@ -61,10 +70,9 @@ class AsteroidsBalanceStats:
         self._cur_speeds.append(info.get("ship_speed", 0.0))
         self._cur_targeting.append(info.get("targeting_bonus", 0.0))
         self._cur_distances.append(info.get("distance_to_nearest", 0.0))
-        self._cur_accuracy.append(info.get("accuracy", 0.0))
         self._cur_rewards.append(float(reward))
+
         if done:
-            # Decide episode-ending cause
             if info.get("collision", False) or self._cur_lives < 1:
                 self._cur_death_by = "collision"
             elif info.get("level_completed", False):
@@ -83,7 +91,6 @@ class AsteroidsBalanceStats:
             self.mean_speeds.append(float(np.mean(self._cur_speeds)) if self._cur_speeds else 0.0)
             self.mean_targeting.append(float(np.mean(self._cur_targeting)) if self._cur_targeting else 0.0)
             self.mean_distances.append(float(np.mean(self._cur_distances)) if self._cur_distances else 0.0)
-            self.accuracies.append(float(np.mean(self._cur_accuracy)) if self._cur_accuracy else 0.0)
             self.deaths_by.append(self._cur_death_by)
 
             # Reward stats
@@ -98,6 +105,17 @@ class AsteroidsBalanceStats:
             rate = total_reward / self._cur_steps if self._cur_steps > 0 else 0.0
             self.reward_rates.append(rate)
 
+            # --- Metrics calculated at episode end only ---
+            acc = self._cur_asteroids / max(1, self._cur_bullets)
+            duration_min = self._cur_steps / 60.0  # Assume env runs at 60 steps/sec
+            score_min = self._cur_score / duration_min if duration_min > 0 else 0.0
+            reward_min = total_reward / duration_min if duration_min > 0 else 0.0
+            score_reward_ratio = self._cur_score / max(1.0, total_reward)
+            self.episode_accuracy.append(acc)
+            self.episode_score_per_min.append(score_min)
+            self.episode_reward_per_min.append(reward_min)
+            self.episode_score_reward_ratio.append(score_reward_ratio)
+
             self.episodes += 1
             self._cur_steps = 0
             self._cur_bullets = 0
@@ -108,7 +126,6 @@ class AsteroidsBalanceStats:
             self._cur_speeds = []
             self._cur_targeting = []
             self._cur_distances = []
-            self._cur_accuracy = []
             self._cur_rewards = []
             self._cur_death_by = ""
 
@@ -120,13 +137,16 @@ class AsteroidsBalanceStats:
             levels=self.levels,
             bullets_fired=self.bullets_fired,
             asteroids_destroyed=self.asteroids_destroyed,
+            episode_accuracy=self.episode_accuracy,
+            episode_score_per_min=self.episode_score_per_min,
+            episode_reward_per_min=self.episode_reward_per_min,
+            episode_score_reward_ratio=self.episode_score_reward_ratio,
             hyperspace_used=self.hyperspace_used,
             lives_lost=self.lives_lost,
             collisions=self.collisions,
             mean_speeds=self.mean_speeds,
             mean_targeting=self.mean_targeting,
             mean_distances=self.mean_distances,
-            accuracies=self.accuracies,
             deaths_by=self.deaths_by,
             episode_rewards=self.episode_rewards,
             episode_max_reward=self.episode_max_reward,

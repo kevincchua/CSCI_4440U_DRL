@@ -113,6 +113,11 @@ def distance_band_bonus_multi(closest_distances, ideal_min=100, ideal_max=300, p
     Returns:
         float: Reward value based on average distance to multiple asteroids
     """
+
+    return sum(
+        distance_band_bonus_single(d, ideal_min, ideal_max, penalty_scale)
+        for d in closest_distances
+    )/len(closest_distances)
     avg_distance = sum(closest_distances) / len(closest_distances)
     return distance_band_bonus_single(avg_distance, ideal_min, ideal_max, penalty_scale)
 
@@ -120,70 +125,153 @@ def distance_band_bonus_multi(closest_distances, ideal_min=100, ideal_max=300, p
 
 @_wrap_with_tracker
 def survivor(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
+    """
+    SURVIVOR PERSONA: Defensive gameplay focused on staying alive.
+
+    Reward structure:
+    - +0.1 per frame (survival bonus)
+    - +distance band bonus (prefers safer distances 150-400)
+    - +1.0 when score increases  
+    - -1.0 for hyperspace usage (unless within 10 units of closest asteroid, then +10)
+    - -5.0 for collisions
+    - -10.0 on death
+    - NO targeting bonus (not focused on offense)
+    """
     if terminated:
-        return -10.0
-    r = 0.05  # LOWERED survival bonus per frame
+        return -10.0  # Heavy death penalty
+    r = 0.1  # Base survival bonus per frame
+    # Distance bonus using closest 3 asteroids
     closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
-    band_bonus = distance_band_bonus_multi(closest_3, 150, 400, 0.005)
-    r += min(band_bonus, 0.5)
-    if score_inc:
-        r += 1.0
-    if info.get("hyperspace_used", False): r -= 1.0
-    if info.get("collision", False): r -= 5.0
-    ship_speed = info.get("ship_speed", 0.0)
-    r += ship_speed * 0.15
-    if ship_speed < 0.02:
-        r -= 0.3
+    r += distance_band_bonus_multi(closest_3, 150, 400, 0.005)
+    # Score increase bonus
+    r += info.get("score_delta", 0) * 0.2
+    r += info.get("asteroids_destroyed", 0) * 2.0
+    # Hyperspace logic
+    if info.get("hyperspace_used", False):
+        nearest = min(closest_3) if closest_3 else 800.0
+        if nearest <= 10.0:
+            r += 10.0  # Smart escape gets a big bonus
+        else:
+            r -= 1.0   # Penalize casual or unneeded escapes
+    # Heavy collision penalty
+    if info.get("collision", False):
+        r -= 5.0
     return r
 
-@_wrap_with_tracker
+
+@_wrap_with_tracker  
 def hunter(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
+    """
+    HUNTER PERSONA: Aggressive gameplay focused on accurate shooting.
+    
+    Reward structure:
+    - +targeting²  * bullets_fired when well-aimed (targeting > 2.5)
+    - -0.5 * bullets_fired when poorly aimed (targeting < 0.5) 
+    - -0.1 * bullets_fired (general anti-spam penalty)
+    - +5.0 per asteroid destroyed
+    - +50.0 for level completion
+    - +0.2 * score_delta (point progression)
+    - +distance band bonus (stay in tactical range 100-300)
+    - -0.2 when moving too slowly (anti-camping)
+    - -50.0 on death
+    
+    This persona encourages active, accurate hunting with good positioning.
+    
+    Args:
+        score_inc: Whether score increased this step
+        terminated: Whether episode ended
+        info: Info dict with all game state information  
+        score: Current total score
+    
+    Returns:
+        float: Calculated reward value
+    """
     if terminated:
         return -50.0
-    r = 0.05  # Lowered survival bonus
+    r = 0.01
+
     fired = info.get("bullets_fired", 0)
-    accuracy = info.get("accuracy", 0.0)
     ship_speed = info.get("ship_speed", 0.0)
     targeting = info.get("targeting_bonus", 0.0)
-    # Shooting and aiming incentives
-    r += 0.2 * fired  # Direct incentive for shooting
+
     if fired > 0:
-        if targeting > 1.0:
-            r += targeting * fired  # Reward for decent aim
-        elif targeting < 0.5:
-            r -= 0.1 * fired  # Smaller penalty for bad shots
-    r += accuracy * 2.0
+        if targeting > 3.0:
+            r += (targeting ** 2) * fired
+        elif targeting > 1.0:
+            r += targeting * fired
+        r -= fired * 0.1
+    else:
+        # New: Add delta_targeting_bonus when no bullet is fired
+        r += info.get("targeting_bonus_delta", 0.0)
     r += info.get("asteroids_destroyed", 0) * 5.0
-    if info.get("level_completed", False): r += 50.0
+    if info.get("level_completed", False):
+        r += 50.0
     r += info.get("score_delta", 0) * 0.2
-    closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
-    r += distance_band_bonus_multi(closest_3, 100, 300, 0.01)
-    r += ship_speed * 0.3
-    if ship_speed < 0.03:
-        r -= 0.5
+    #closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
+    #r += distance_band_bonus_multi(closest_3, 100, 300, 0.01)
+    if ship_speed < 0.02:
+        r -= 0.2
+
     return r
+
 
 @_wrap_with_tracker
 def speedrunner(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
-    r = -0.001  # Time penalty per frame
+    """
+    SPEEDRUNNER PERSONA: Fast-paced gameplay focused on level completion.
+    
+    Reward structure:
+    - -0.001 per frame (time pressure)
+    - +25.0 for level completion (main objective)
+    - +2.0 per asteroid destroyed (progress toward level completion)
+    - +0.2 * ship_speed (movement bonus)
+    - +0.02 * score_delta (point momentum) 
+    - +0.3 * targeting_bonus (efficient aiming)
+    - +distance band bonus (moderate engagement range 80-250)
+    - -3.0 on death (moderate penalty - speed over safety)
+    
+    This persona encourages fast, efficient play with emphasis on level completion.
+    
+    Args:
+        score_inc: Whether score increased this step
+        terminated: Whether episode ended
+        info: Info dict with all game state information
+        score: Current total score
+    
+    Returns:
+        float: Calculated reward value
+    """
+    # Death penalty (moderate - speed is prioritized over safety)
+    if terminated:
+        return -3.0
+    r = -0.001  # Time pressure - every frame costs a small amount
+    
     fired = info.get("bullets_fired", 0)
-    r += 0.15 * fired  # Encourage shooting
-    if info.get("level_completed", False): r += 25.0
-    r += info.get("asteroids_destroyed", 0) * 2.0
-    ship_speed = info.get("ship_speed", 0.0)
-    r += ship_speed * 0.2
-    r += info.get("score_delta", 0) * 0.02
     targeting = info.get("targeting_bonus", 0.0)
-    if fired > 0 and targeting > 1.0:
-        r += 0.2 * targeting
-    r += targeting * 0.3
+    ship_speed = info.get("ship_speed", 0.0) 
+    # Level completion (main goal for speedrunner)
+    if info.get("level_completed", False):
+        r += 25.0
+    
+    # Asteroid destruction (progress toward level completion)
+    r += info.get("asteroids_destroyed", 0) * 2.0
+    
+    # Movement bonus (encourage active play)
+    r += ship_speed * 0.2
+    
+    # Score momentum (maintain forward progress)
+    r += info.get("score_delta", 0) * 0.02
+    
+    # Targeting bonus (efficient aiming saves time)
+    r += info.get("targeting_bonus_delta", 0.0)
+    
+    if fired > 0:
+        r += targeting
+    # Distance bonus (moderate engagement distance - not too far from action)
     distance = info.get("distance_to_nearest", 800.0)
     r += distance_band_bonus_single(distance, 80, 250, 0.008)
-    if terminated:
-        r -= 3.0
+    
     return r
-
-
 
 # ---- Reference reward functions -----------------------------------
 
