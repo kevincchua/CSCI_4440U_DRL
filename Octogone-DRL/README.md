@@ -27,9 +27,9 @@ It is recommended to use a Python virtual environment to manage the project's de
 
 *   `configs/`: Contains YAML files for configuring training runs.
 *   `envs/`: Contains the `OctogoneEnv` environment.
-*   `src/`: Contains the training, evaluation, and debugging scripts.
-*   `models/`: (Git-ignored) Directory where trained models are saved.
-*   `logs/`: (Git-ignored) Directory where evaluation results are saved.
+*   `src/`: Contains the training and evaluation.
+*   `models/`: Directory where trained models are saved (Git-ignored)
+*   `logs/`: Directory where evaluation results are saved (Git-ignored)
 *   `octogone_files/`: Contains the original Godot game files.
 
 ## 3. Training an Agent
