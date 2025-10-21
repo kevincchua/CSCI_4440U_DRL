@@ -151,8 +151,6 @@ def survivor(score_inc: bool, terminated: bool, info: dict, score: int) -> float
         nearest = min(closest_3) if closest_3 else 800.0
         if nearest <= 10.0:
             r += 10.0  # Smart escape gets a big bonus
-        else:
-            r -= 1.0   # Penalize casual or unneeded escapes
     # Heavy collision penalty
     if info.get("collision", False):
         r -= 5.0

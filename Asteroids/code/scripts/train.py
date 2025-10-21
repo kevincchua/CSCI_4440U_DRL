@@ -1,10 +1,7 @@
-from stable_baselines3.common.callbacks import EvalCallback, CheckpointCallback
+from stable_baselines3.common.callbacks import BaseCallback, EvalCallback, CheckpointCallback
 from stable_baselines3 import PPO, A2C
 import os 
 import sys 
-
-
-# code/scripts/train.py
 import importlib
 import inspect
 from pathlib import Path
@@ -13,14 +10,9 @@ import torch
 import hydra
 from hydra.utils import get_original_cwd
 from omegaconf import DictConfig, OmegaConf
-
 from code.wrappers.generic_env import GameEnv
 from code.algos import get_algo
 from stable_baselines3.common.vec_env import SubprocVecEnv
-from stable_baselines3 import PPO
-from stable_baselines3.common.callbacks import BaseCallback
-
-from stable_baselines3.common.callbacks import BaseCallback
 
 class AnnealCallback(BaseCallback):
     def __init__(self, total_timesteps, 
