@@ -2,6 +2,7 @@ import subprocess
 import webbrowser
 import os
 import sys
+import subprocess
 import platform
 from pathlib import Path
 import shutil
@@ -16,9 +17,25 @@ CONF_REWARD_DIR = CONF_ROOT / "reward"
 ALGO_CONF_DIR = CONF_ROOT / "algo"
 
 # Set available algorithms (auto-detect from algo config folder if you want)
-models_available = sorted([f.stem for f in ALGO_CONF_DIR.glob("*.yaml")]) or ["ppo", "a2c"]
+models_available = sorted([f.stem for f in ALGO_CONF_DIR.glob("*.yaml")])
 current_model = models_available[0] if models_available else "ppo"
+required_packages = [
+    "numpy",
+    "pygame",
+    "matplotlib",
+    "tqdm",
+    "stable-baselines3",
+    "gymnasium"
+    # Add more as needed
+]
 
+def install_required(packages):
+    for pkg in packages:
+        try:
+            __import__(pkg)
+        except ImportError:
+            print(f"Installing {pkg}...")
+            subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
 
 def get_skills_from_grid_yaml(path="code/conf/grid.yaml"):
     with open(path, "r") as f:
@@ -175,7 +192,7 @@ def run_evaluation():
             "--game", game,
             "--algo", algo,
             "--model", str(model_zip),
-            "--episodes", "5",
+            "--episodes", "30",
             "--render", "none",
             "--out", str(out_json),
             "--metrics", metrics_class,
@@ -379,6 +396,7 @@ def show_project_status():
 # ---------- Menu ----------
 
 def main():
+    install_required(required_packages)
     global current_model
     while True:
         print("=" * 60)

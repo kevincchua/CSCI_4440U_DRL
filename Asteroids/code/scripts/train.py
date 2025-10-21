@@ -205,7 +205,6 @@ def main(cfg: DictConfig):
                 os.makedirs(tb_dir, exist_ok=True)
                 
                 # --- NEW: EvalCallback for model evaluation ---
-                
                 eval_cb = EvalCallback(
                     eval_env,
                     best_model_save_path=str(models_dir / "best" / f"{game_name}_{model_name}_{persona}_{str(skill).lower()}"),
@@ -224,7 +223,7 @@ def main(cfg: DictConfig):
                 anneal_configs = {
                     "ppo": dict(
                         start_ent=0.15, end_ent=0.0005,
-                        start_grad_clip=0.5, end_grad_clip=0.3,
+                        start_grad_clip=0.5, end_grad_clip=0.5,
                         start_lr=0.0004, end_lr=0.00003
                     ),
                     "a2c": dict(

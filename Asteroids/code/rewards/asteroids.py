@@ -197,19 +197,18 @@ def hunter(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
             r += (targeting ** 2) * fired
         elif targeting > 1.0:
             r += targeting * fired
-        r -= fired * 0.1
     else:
         # New: Add delta_targeting_bonus when no bullet is fired
         r += info.get("targeting_bonus_delta", 0.0)
     r += info.get("asteroids_destroyed", 0) * 5.0
     if info.get("level_completed", False):
-        r += 50.0
+        r += 25.0
     r += info.get("score_delta", 0) * 0.2
     #closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
     #r += distance_band_bonus_multi(closest_3, 100, 300, 0.01)
     if ship_speed < 0.02:
         r -= 0.2
-
+    #print(f"[DEBUG] fired:{fired}, destroyed:{info.get('asteroids_destroyed', 0)}, reward={r}")
     return r
 
 
@@ -249,16 +248,16 @@ def speedrunner(score_inc: bool, terminated: bool, info: dict, score: int) -> fl
     ship_speed = info.get("ship_speed", 0.0) 
     # Level completion (main goal for speedrunner)
     if info.get("level_completed", False):
-        r += 25.0
+        r += 50.0
     
     # Asteroid destruction (progress toward level completion)
-    r += info.get("asteroids_destroyed", 0) * 2.0
+    r += info.get("asteroids_destroyed", 0) * 5.0
     
     # Movement bonus (encourage active play)
     r += ship_speed * 0.2
     
     # Score momentum (maintain forward progress)
-    r += info.get("score_delta", 0) * 0.02
+    r += info.get("score_delta", 0) * 0.25
     
     # Targeting bonus (efficient aiming saves time)
     r += info.get("targeting_bonus_delta", 0.0)
@@ -266,8 +265,8 @@ def speedrunner(score_inc: bool, terminated: bool, info: dict, score: int) -> fl
     if fired > 0:
         r += targeting
     # Distance bonus (moderate engagement distance - not too far from action)
-    distance = info.get("distance_to_nearest", 800.0)
-    r += distance_band_bonus_single(distance, 80, 250, 0.008)
+    # distance = info.get("distance_to_nearest", 800.0)
+    # r += distance_band_bonus_single(distance, 80, 250, 0.008)
     
     return r
 

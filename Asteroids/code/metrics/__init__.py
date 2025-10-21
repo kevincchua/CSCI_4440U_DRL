@@ -1,1 +1,1 @@
-from .flappy_balance import FlappyBalanceStats  # noqa: F401 – export default collector
+from .asteroids_balance import AsteroidsBalanceStats  # noqa: F401 – export default collector

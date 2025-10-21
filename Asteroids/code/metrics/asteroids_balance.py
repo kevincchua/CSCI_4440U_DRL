@@ -1,5 +1,7 @@
 import numpy as np
 import json
+from collections import defaultdict
+from typing import Any, Dict
 
 class AsteroidsBalanceStats:
     """
@@ -58,7 +60,7 @@ class AsteroidsBalanceStats:
         self._cur_rewards = []
         self._cur_death_by = ""
 
-    def on_step(self, obs, action, reward, done, info):
+    def on_step(self, obs: Any, action: int, reward: float, done: bool, info: Dict):
         self._cur_steps += 1
         self._cur_score = info.get("score", 0)
         self._cur_level = info.get("level", 1)
@@ -71,6 +73,7 @@ class AsteroidsBalanceStats:
         self._cur_targeting.append(info.get("targeting_bonus", 0.0))
         self._cur_distances.append(info.get("distance_to_nearest", 0.0))
         self._cur_rewards.append(float(reward))
+        #print(f"[STEP] reward={reward}, info={info}")
 
         if done:
             if info.get("collision", False) or self._cur_lives < 1:
