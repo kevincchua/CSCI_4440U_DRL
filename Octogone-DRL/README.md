@@ -58,3 +58,11 @@ This will run 20 episodes of evaluation and save the results to the `logs/` dire
     ```bash
     python src/evaluate.py --config configs/ppo_speedrunner.yaml --model models/ppo_speedrunner.zip --episodes 5 --render
     ```
+
+## Analytics
+
+The `analytics/generate_plots.py` script generates plots from the evaluation data.
+
+```bash
+python3 analytics/generate_plots.py
+```
