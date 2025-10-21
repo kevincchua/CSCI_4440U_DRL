@@ -6,6 +6,7 @@ import platform
 from pathlib import Path
 import shutil
 import time
+import yaml
 
 DEFAULT_TB_ROOT = "mylogs"   # match train.py tb_root
 MODELS_DIR = Path("models/")
@@ -17,6 +18,14 @@ ALGO_CONF_DIR = CONF_ROOT / "algo"
 # Set available algorithms (auto-detect from algo config folder if you want)
 models_available = sorted([f.stem for f in ALGO_CONF_DIR.glob("*.yaml")]) or ["ppo", "a2c"]
 current_model = models_available[0] if models_available else "ppo"
+
+
+def get_skills_from_grid_yaml(path="code/conf/grid.yaml"):
+    with open(path, "r") as f:
+        grid = yaml.safe_load(f)
+        skills = grid.get("skills", {})
+    # Only keep the keys (skill names), not training steps.
+    return list(skills.keys())
 
 def get_available_games():
     if not CONF_GAME_DIR.exists():
@@ -189,7 +198,10 @@ def train_all_models():
     if not personas:
         print(f"[skip] No personas for game '{game}' (expect {game}_*.yaml)")
         return
-    skills = ["Novice", "Expert"]
+    skills = get_skills_from_grid_yaml()
+    if not skills:
+        print(f"[skip] No skills defined in grid.yaml")
+        return
     tb_root = DEFAULT_TB_ROOT
     total_runs = 0
     for persona in personas:

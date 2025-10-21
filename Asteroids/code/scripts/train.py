@@ -99,72 +99,6 @@ def _resolve_callable_or_instance(node: Dict[str, Any]) -> Any:
         kwargs = {k: v for k, v in node.items() if k != "_target_"}
         return obj(**kwargs)
     return obj
-
-# def Train_flappy(env, total_timesteps=1_000_000, log_dir="run/flappy_ppo" ):
-#     """
-#     Wrap training into a function so it can be reused in loops (e.g.m, across personas/skills), 
-#     """
-#     os.makedirs(log_dir, exist_ok=True)
-#     os.makedirs("models/best", exist_ok=True)
-#     os.makedirs("models/checkpoints", exist_ok=True)
-#     os.makedirs("models/eval_logs", exist_ok=True)
-
-#     # Eval env is separate copy to avoid bias from training env
-#     eval_env = env.___class__(**env.init_kwargs)
-
-#     eval_callback = EvalCallback(
-#         eval_env, 
-#         best_model_save_path="models/best", 
-#         log_path="models/eval_logs",
-#         eval_freq=20_000,
-#         deterministic=True,
-#         render=False,
-#         )
-    
-#     ckpt_callback = CheckpointCallback(
-#         save_freq=50_000,
-#         save_path="models/checkpoints",
-#         name_prefix="ppo_flappy",
-#     )
-
-#     anneal_callback = AnnealCallback(
-#         total_timesteps = total_timesteps,    
-#         start_ent=0.1, 
-#         end_ent=0.01,
-#         start_grad_clip=1.0, 
-#         end_grad_clip=0.3
-#     )
-
-#     # Core PPO model with TB logging 
-#     model = PPO(
-#         policy="MlpPolicy",
-#         env=env,
-#         max_grad_norm=1.0,
-#         tensorboard_log=log_dir,
-#         verbose=1,
-#         n_steps=4096,
-#         batch_size=256,
-#         gae_lambda=0.95,
-#         gamma=0.99,
-#         learning_rate=2.5e-4,
-#         n_epochs=2,
-#         ent_coef=0.1,
-#         vf_coef=0.5,
-#         clip_range=0.2,
-#     )
-
-#     model.learn(
-#         total_timesteps=int(total_timesteps),
-#         callback=[eval_callback, ckpt_callback, anneal_callback],
-#         tb_log_name="PPO_Flappy_v1",
-#         progress_bar=True
-#     )
-
-#     model.save("models/PPO_Flappy_v1")
-    
-#     return model
-
-
 @hydra.main(version_base=None, config_path="../conf", config_name="grid")
 def main(cfg: DictConfig):
     """
@@ -297,13 +231,13 @@ def main(cfg: DictConfig):
                 )
                 anneal_configs = {
                     "ppo": dict(
-                        start_ent=0.15, end_ent=0.005,
-                        start_grad_clip=1.0, end_grad_clip=0.3,
-                        start_lr=0.0003, end_lr=0.00003
+                        start_ent=0.15, end_ent=0.0005,
+                        start_grad_clip=0.5, end_grad_clip=0.3,
+                        start_lr=0.0004, end_lr=0.00003
                     ),
                     "a2c": dict(
                         start_ent=0.15, end_ent=0.008,
-                        start_grad_clip=1.0, end_grad_clip=0.5,
+                        start_grad_clip=0.5, end_grad_clip=0.5,
                         start_lr=0.0007, end_lr=0.00007
                     ),
                 }
