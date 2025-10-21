@@ -1,0 +1,106 @@
+[gd_scene load_steps=16 format=3 uid="uid://cxtn88d3xvpha"]
+
+[ext_resource type="Script" uid="uid://bmtbirigptbcu" path="res://scripts/player_scripts/player.gd" id="1_s1vd6"]
+[ext_resource type="PackedScene" uid="uid://cwt53j51gbysd" path="res://scenes/player_sprite.tscn" id="2_r7638"]
+[ext_resource type="Script" uid="uid://b1oosf5y288qg" path="res://scripts/player_scripts/player_sprite.gd" id="3_3v2ag"]
+[ext_resource type="Script" uid="uid://bmwuhbhny862" path="res://scripts/player_scripts/player_camera.gd" id="3_5iy3g"]
+[ext_resource type="Script" uid="uid://dk14svwbcjyne" path="res://scripts/player_scripts/shotgun.gd" id="4_d5ahc"]
+[ext_resource type="Texture2D" uid="uid://65b7ryapotnn" path="res://textures/ster.png" id="4_jwtsm"]
+[ext_resource type="AudioStream" uid="uid://c1qnlx5e1gy8f" path="res://sfx/shotgun_firing.mp3" id="6_drf0i"]
+[ext_resource type="Script" uid="uid://bj1e112ksf0ub" path="res://scripts/player_scripts/grappling_hook.gd" id="6_e0hap"]
+[ext_resource type="AudioStream" uid="uid://cxqpnlcg0ftkq" path="res://sfx/shotgun_reload.mp3" id="7_y4r1p"]
+[ext_resource type="AudioStream" uid="uid://4rveeofw0oof" path="res://sfx/jump.mp3" id="8_smehm"]
+[ext_resource type="AudioStream" uid="uid://rf6xka1wngqf" path="res://sfx/grapplinghook_firing.mp3" id="8_ur7pv"]
+[ext_resource type="AudioStream" uid="uid://ving4cdkp2km" path="res://sfx/grapplinghook_reload.mp3" id="10_d2wvv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5gqgi"]
+size = Vector2(64, 96)
+
+[sub_resource type="Gradient" id="Gradient_twujo"]
+offsets = PackedFloat32Array(0, 0.107143, 0.875, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="Curve" id="Curve_lu1cp"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0]
+point_count = 1
+
+[node name="Player" type="CharacterBody2D"]
+process_mode = 1
+collision_layer = 3
+collision_mask = 3
+floor_max_angle = 1.22173
+floor_snap_length = 0.0
+script = ExtResource("1_s1vd6")
+
+[node name="PlayerSprite" parent="." instance=ExtResource("2_r7638")]
+script = ExtResource("3_3v2ag")
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5gqgi")
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+zoom = Vector2(0.15, 0.15)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+script = ExtResource("3_5iy3g")
+
+[node name="Stars" type="CPUParticles2D" parent="PlayerCamera"]
+z_index = -2
+z_as_relative = false
+amount = 2000
+texture = ExtResource("4_jwtsm")
+lifetime = 200.0
+preprocess = 100.0
+emission_shape = 3
+emission_rect_extents = Vector2(20000, 7000)
+direction = Vector2(0, 0)
+gravity = Vector2(0, 0)
+scale_amount_max = 3.0
+color_ramp = SubResource("Gradient_twujo")
+hue_variation_min = -1.0
+hue_variation_max = 1.0
+hue_variation_curve = SubResource("Curve_lu1cp")
+
+[node name="Shotgun" type="Node2D" parent="."]
+script = ExtResource("4_d5ahc")
+
+[node name="SpreadLine" type="Line2D" parent="Shotgun"]
+top_level = true
+default_color = Color(1, 0.486275, 0.219608, 1)
+
+[node name="Shotgun" type="AudioStreamPlayer" parent="Shotgun"]
+stream = ExtResource("6_drf0i")
+volume_db = 10.0
+max_polyphony = 2
+bus = &"Sfx"
+
+[node name="Reload" type="AudioStreamPlayer" parent="Shotgun"]
+stream = ExtResource("7_y4r1p")
+bus = &"Sfx"
+
+[node name="GrapplingHook" type="Node2D" parent="."]
+script = ExtResource("6_e0hap")
+
+[node name="RopeOutline" type="Line2D" parent="GrapplingHook"]
+top_level = true
+points = PackedVector2Array(0, 0, 0, 0)
+width = 26.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Rope" type="Line2D" parent="GrapplingHook"]
+top_level = true
+points = PackedVector2Array(0, 0, 0, 0)
+width = 12.0
+default_color = Color(0.780392, 0.780392, 0.886275, 1)
+
+[node name="GrapplingHook" type="AudioStreamPlayer" parent="GrapplingHook"]
+stream = ExtResource("8_ur7pv")
+bus = &"Sfx"
+
+[node name="Reload" type="AudioStreamPlayer" parent="GrapplingHook"]
+stream = ExtResource("10_d2wvv")
+bus = &"Sfx"
+
+[node name="Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_smehm")
+bus = &"Sfx"
