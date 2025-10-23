@@ -222,13 +222,13 @@ def main(cfg: DictConfig):
                 )
                 anneal_configs = {
                     "ppo": dict(
-                        start_ent=0.15, end_ent=0.0005,
-                        start_grad_clip=0.5, end_grad_clip=0.5,
-                        start_lr=0.0004, end_lr=0.00003
+                        start_ent=0.125, end_ent=0.005,
+                        start_grad_clip=1.0, end_grad_clip=0.5,
+                        start_lr=0.0005, end_lr=0.00005
                     ),
                     "a2c": dict(
-                        start_ent=0.15, end_ent=0.008,
-                        start_grad_clip=0.5, end_grad_clip=0.5,
+                        start_ent=0.125, end_ent=0.008,
+                        start_grad_clip=1.0, end_grad_clip=0.5,
                         start_lr=0.0007, end_lr=0.00007
                     ),
                 }

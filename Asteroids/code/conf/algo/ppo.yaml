@@ -2,15 +2,15 @@ _target_: algos.get_algo
 # PPO Algorithm Configuration
 name: "ppo"
 policy: "MlpPolicy"
-learning_rate: 0.0004
-n_steps: 2048
+learning_rate: 0.0005
+n_steps: 256
 batch_size: 128
-n_epochs: 8
+n_epochs: 4
 gamma: 0.99
 gae_lambda: 0.95
-clip_range: 0.15
+clip_range: 0.2
 normalize_advantage: true
-ent_coef: 0.15
+ent_coef: 0.125
 vf_coef: 0.5
-max_grad_norm: 0.5
+max_grad_norm: 1.0
 verbose: 1

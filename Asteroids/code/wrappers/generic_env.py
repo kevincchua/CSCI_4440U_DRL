@@ -66,10 +66,12 @@ class GameEnv(gym.Env):
         # For Box actions (not used here), pass as-is
 
         # OLD (remove): obs, base, terminated, info = self.game.step(bool(action))
+        #print(f"[DEBUG] Using reward_fn: {self.reward_fn.__name__}")
         obs, base, terminated, info = self.game.step(action)
 
         truncated = bool(self.max_steps and self._step_count >= self.max_steps)
         reward = self.reward_fn(obs, base, terminated, info)
+        #print(f"[DEBUG] step: base={base} persona={reward}")
         return obs, reward, terminated, truncated, info
 
 

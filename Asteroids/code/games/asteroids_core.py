@@ -143,7 +143,7 @@ class Asteroid(GameObject):
 
 @dataclass
 class Bullet(GameObject):
-    lifetime: float = 3600.0
+    lifetime: float = 180.0
     creation_time: int = 0
 
     def update(self, dt: float, current_time: int):
@@ -192,7 +192,7 @@ class AsteroidsCore:
         self.ship_destroyed_this_step = False
 
         self.rng = np.random.RandomState(1337)
-        obs_len = 6 + (MAX_ASTEROIDS * 5) + (MAX_BULLETS * 4)
+        obs_len = 6 + (MAX_ASTEROIDS * 5) + (MAX_BULLETS * 4) + 2
         self._obs_space = spaces.Box(-np.inf, np.inf, shape=(obs_len,), dtype=np.float32)
         self._act_space = spaces.Discrete(6)
 
@@ -337,6 +337,10 @@ class AsteroidsCore:
             else:
                 bullet_obs = [0.0, 0.0, 0.0, 0.0]
             obs.extend(bullet_obs)
+        # --- Add custom extras to obs ---
+        obs.append(self.score / 10000.0)  # optionally normalize score if appropriate
+        targeting_bonus, _ = self._calculate_targeting_info()
+        obs.append(targeting_bonus)
         return np.array(obs, dtype=np.float32)
 
     def reset(self):
@@ -446,7 +450,7 @@ class AsteroidsCore:
         targeting_bonus_delta = targeting_bonus - self.last_targeting_bonus
         self.last_targeting_bonus = targeting_bonus
 
-        base_reward = 0.1
+        base_reward = 1.0
         terminated = not self.alive
 
         info = {
@@ -457,7 +461,6 @@ class AsteroidsCore:
             "collision": self.collision_this_step,
             "hyperspace_used": self.hyperspace_used_this_step,
             "bullets_fired": self.bullets_fired_this_step,
-            "shots_hit": self.shots_hit_this_step,
             "ship_destroyed": self.ship_destroyed_this_step,
             "asteroids_destroyed": self.asteroids_destroyed_this_step,
             "distance_to_nearest": nearest_distance,
@@ -594,22 +597,22 @@ class AsteroidsCore:
             if self.ship and self.ship.active and any(a.active for a in self.asteroids):
                 distances_and_asteroids = self._get_asteroids_sorted_by_distance()
                 ship_x, ship_y = self.ship.position
-                debug_font = pygame.font.Font(None, 32)
-                for idx in range(min(3, len(distances_and_asteroids))):
-                    dist, asteroid = distances_and_asteroids[idx]
-                    ast_x, ast_y = asteroid.position
-                    if idx == 0:
-                        color = (0, 255, 0)
-                    elif idx == 1:
-                        color = (255, 255, 0)
-                    else:
-                        color = (0, 255, 255)
-                    pygame.draw.line(surface, color, (int(ship_x), int(ship_y)), (int(ast_x), int(ast_y)), 2)
-                targeting_bonus, angle_diff = self._calculate_targeting_info()
-                angle_text = debug_font.render(f"Angle: {angle_diff:.1f}°", True, (0, 255, 0))
-                target_text = debug_font.render(f"TargetBonus: {targeting_bonus:.2f}", True, (0, 255, 255))
-                surface.blit(angle_text, (int(ship_x) + 20, int(ship_y) - 30))
-                surface.blit(target_text, (int(ship_x) + 20, int(ship_y) - 60))
+                # debug_font = pygame.font.Font(None, 32)
+                # for idx in range(min(3, len(distances_and_asteroids))):
+                #     dist, asteroid = distances_and_asteroids[idx]
+                #     ast_x, ast_y = asteroid.position
+                #     if idx == 0:
+                #         color = (0, 255, 0)
+                #     elif idx == 1:
+                #         color = (255, 255, 0)
+                #     else:
+                #         color = (0, 255, 255)
+                #     pygame.draw.line(surface, color, (int(ship_x), int(ship_y)), (int(ast_x), int(ast_y)), 2)
+                # targeting_bonus, angle_diff = self._calculate_targeting_info()
+                # angle_text = debug_font.render(f"Angle: {angle_diff:.1f}°", True, (0, 255, 0))
+                # target_text = debug_font.render(f"TargetBonus: {targeting_bonus:.2f}", True, (0, 255, 255))
+                # surface.blit(angle_text, (int(ship_x) + 20, int(ship_y) - 30))
+                # surface.blit(target_text, (int(ship_x) + 20, int(ship_y) - 60))
         font = pygame.font.Font(None, 36)
         score_text = font.render(f"SCORE: {self.score:06d}", True, (255, 255, 255))
         surface.blit(score_text, (10, 10))

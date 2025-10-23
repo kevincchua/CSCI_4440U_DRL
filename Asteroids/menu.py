@@ -8,6 +8,8 @@ from pathlib import Path
 import shutil
 import time
 import yaml
+import winsound
+
 
 DEFAULT_TB_ROOT = "mylogs"   # match train.py tb_root
 MODELS_DIR = Path("models/")
@@ -25,7 +27,7 @@ required_packages = [
     "matplotlib",
     "tqdm",
     "stable-baselines3",
-    "gymnasium"
+    "gymnasium",
     # Add more as needed
 ]
 
@@ -156,6 +158,7 @@ def run_training():
         ]
     print("\n>>>", " ".join(cmd), "\n")
     subprocess.run(cmd)
+    winsound.PlaySound("chime.wav", winsound.SND_FILENAME)
     print("\nTraining completed.\n")
 
 def run_evaluation():
@@ -192,7 +195,7 @@ def run_evaluation():
             "--game", game,
             "--algo", algo,
             "--model", str(model_zip),
-            "--episodes", "30",
+            "--episodes", "100",
             "--render", "none",
             "--out", str(out_json),
             "--metrics", metrics_class,
@@ -235,6 +238,7 @@ def train_all_models():
             print(" ".join(cmd))
             subprocess.run(cmd)
             total_runs += 1
+    winsound.PlaySound("chime.wav", winsound.SND_FILENAME)
     print(f"\nCompleted training for {total_runs} model(s) in game '{game}'.\n")
 
 def watch_trained_agent():

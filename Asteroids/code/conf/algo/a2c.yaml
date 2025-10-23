@@ -5,7 +5,7 @@ policy: "MlpPolicy"
 learning_rate: 0.0007
 n_steps: 25
 gamma: 0.99
-ent_coef: 0.15
+ent_coef: 0.125
 vf_coef: 0.5
 max_grad_norm: 1.0
 use_rms_prop: true
