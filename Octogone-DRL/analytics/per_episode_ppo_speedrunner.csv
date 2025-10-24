@@ -1,0 +1,6 @@
+episode,reward,length,inputs,time_to_goal,death,level_completed,distance_traveled,unique_tiles_visited,max_x_velocity,max_y_velocity,max_momentum,experiment
+0,-48.28,430,430,,1,0,375.4619,302,29.94,100.0,104.38584,ppo_speedrunner
+1,-48.32,474,474,,1,0,402.3508,322,29.94,100.0,104.38584,ppo_speedrunner
+2,-48.22,440,440,,1,0,399.06592,310,29.94,100.0,104.38584,ppo_speedrunner
+3,-48.25,399,399,,1,0,369.9926,288,29.94,100.0,104.38584,ppo_speedrunner
+4,-48.55,469,469,,1,0,366.3385,308,29.94,100.0,104.38584,ppo_speedrunner

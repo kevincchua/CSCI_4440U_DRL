@@ -1,0 +1,2 @@
+experiment,n_episodes,mean_reward,std_reward,mean_length,mean_time_to_goal,success_rate,agg_mean_reward,agg_std_reward,agg_mean_length,agg_mean_inputs,agg_mean_time_to_goal,agg_total_deaths,agg_levels_completed,agg_mean_distance_traveled,agg_mean_unique_tiles,agg_mean_max_x_velocity,agg_mean_max_y_velocity,agg_mean_max_momentum
+ppo_speedrunner,5,-48.324,0.13164345787011109,442.4,,0.0,-48.324,0.13164345787011414,442.4,442.4,,5,0,382.6419677734375,306.0,29.939998626708984,100.0,104.3858413696289
