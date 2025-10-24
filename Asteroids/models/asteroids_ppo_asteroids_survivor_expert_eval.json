@@ -2,97 +2,31 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1777
+      583
     ],
     "scores": [
-      6900
+      1160
     ],
     "levels": [
-      3
+      1
     ],
     "bullets_fired": [
-      129
+      42
     ],
     "asteroids_destroyed": [
-      94
+      17
     ],
     "episode_accuracy": [
-      0.7286821705426356
+      0.40476190476190477
     ],
     "episode_score_per_min": [
-      232.97692740574
+      119.38250428816467
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.882948790095667
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      4.922266981263106
-    ],
-    "mean_targeting": [
-      1.3720391124429268
-    ],
-    "mean_distances": [
-      178.3808718694474
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1777.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1113
-    ],
-    "scores": [
-      3680
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      77
-    ],
-    "asteroids_destroyed": [
-      50
-    ],
-    "episode_accuracy": [
-      0.6493506493506493
-    ],
-    "episode_score_per_min": [
-      198.38274932614556
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.306379155435759
+      1.9897084048027445
     ],
     "hyperspace_used": [
       1
@@ -104,19 +38,19 @@
       3
     ],
     "mean_speeds": [
-      1.2159579178152702
+      0.0
     ],
     "mean_targeting": [
-      1.1055471001549686
+      1.355386726974097
     ],
     "mean_distances": [
-      188.42137311751355
+      163.0184789759473
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1113.0
+      583.0
     ],
     "episode_max_reward": [
       1.0
@@ -134,100 +68,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      649
+      3219
     ],
     "scores": [
-      2340
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      40
-    ],
-    "asteroids_destroyed": [
-      33
-    ],
-    "episode_accuracy": [
-      0.825
-    ],
-    "episode_score_per_min": [
-      216.33281972265024
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.605546995377504
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.27144896924403855
-    ],
-    "mean_targeting": [
-      1.5748047380631618
-    ],
-    "mean_distances": [
-      126.51515607234572
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      649.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2266
-    ],
-    "scores": [
-      8190
+      9120
     ],
     "levels": [
       4
     ],
     "bullets_fired": [
-      166
+      237
     ],
     "asteroids_destroyed": [
-      108
+      123
     ],
     "episode_accuracy": [
-      0.6506024096385542
+      0.5189873417721519
     ],
     "episode_score_per_min": [
-      216.85789938217124
+      169.99068033550793
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.614298323036187
+      2.8331780055917988
     ],
     "hyperspace_used": [
-      1
+      5
     ],
     "lives_lost": [
       3
@@ -236,19 +104,19 @@
       3
     ],
     "mean_speeds": [
-      2.0496232088619064
+      0.6266797065558957
     ],
     "mean_targeting": [
-      1.4187062182177748
+      0.7927354688635276
     ],
     "mean_distances": [
-      175.9981267994115
+      175.42044000139092
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      2266.0
+      3219.0
     ],
     "episode_max_reward": [
       1.0
@@ -266,100 +134,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1330
+      1444
     ],
     "scores": [
-      5070
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      91
-    ],
-    "asteroids_destroyed": [
-      68
-    ],
-    "episode_accuracy": [
-      0.7472527472527473
-    ],
-    "episode_score_per_min": [
-      228.72180451127818
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.81203007518797
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      3.7223083568022663
-    ],
-    "mean_targeting": [
-      1.484563755237179
-    ],
-    "mean_distances": [
-      186.02232024906928
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1330.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      879
-    ],
-    "scores": [
-      3730
+      2510
     ],
     "levels": [
       2
     ],
     "bullets_fired": [
-      61
+      104
     ],
     "asteroids_destroyed": [
-      51
+      36
     ],
     "episode_accuracy": [
-      0.8360655737704918
+      0.34615384615384615
     ],
     "episode_score_per_min": [
-      254.6075085324232
+      104.29362880886427
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      4.243458475540387
+      1.7382271468144044
     ],
     "hyperspace_used": [
-      1
+      2
     ],
     "lives_lost": [
       3
@@ -368,19 +170,19 @@
       3
     ],
     "mean_speeds": [
-      2.034340058051821
+      0.11163255870548643
     ],
     "mean_targeting": [
-      1.2896558232514042
+      0.8632655081781607
     ],
     "mean_distances": [
-      142.12138113703176
+      202.0565513628052
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      879.0
+      1444.0
     ],
     "episode_max_reward": [
       1.0
@@ -398,7 +200,73 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1124
+      1404
+    ],
+    "scores": [
+      2570
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      107
+    ],
+    "asteroids_destroyed": [
+      35
+    ],
+    "episode_accuracy": [
+      0.32710280373831774
+    ],
+    "episode_score_per_min": [
+      109.82905982905983
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      1.8304843304843306
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9655059719087351
+    ],
+    "mean_distances": [
+      143.70138238853872
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1404.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1896
     ],
     "scores": [
       4580
@@ -407,25 +275,25 @@
       2
     ],
     "bullets_fired": [
-      76
+      135
     ],
     "asteroids_destroyed": [
       61
     ],
     "episode_accuracy": [
-      0.8026315789473685
+      0.45185185185185184
     ],
     "episode_score_per_min": [
-      244.48398576512454
+      144.9367088607595
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      4.074733096085409
+      2.4156118143459917
     ],
     "hyperspace_used": [
-      1
+      3
     ],
     "lives_lost": [
       3
@@ -434,19 +302,19 @@
       3
     ],
     "mean_speeds": [
-      1.7082361455118529
+      0.0
     ],
     "mean_targeting": [
-      1.51087006952279
+      0.7214704458754825
     ],
     "mean_distances": [
-      159.89567878644297
+      183.20331410811946
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1124.0
+      1896.0
     ],
     "episode_max_reward": [
       1.0
@@ -464,427 +332,31 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1330
+      1322
     ],
     "scores": [
-      4480
+      2460
     ],
     "levels": [
       2
     ],
     "bullets_fired": [
-      91
-    ],
-    "asteroids_destroyed": [
-      60
-    ],
-    "episode_accuracy": [
-      0.6593406593406593
-    ],
-    "episode_score_per_min": [
-      202.10526315789474
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.3684210526315788
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.5460572248562836
-    ],
-    "mean_targeting": [
-      1.3473598617172386
-    ],
-    "mean_distances": [
-      149.73081188493856
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1330.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1573
-    ],
-    "scores": [
-      7900
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      125
-    ],
-    "asteroids_destroyed": [
-      104
-    ],
-    "episode_accuracy": [
-      0.832
-    ],
-    "episode_score_per_min": [
-      301.3350286077559
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      5.022250476795931
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      6.079679624847144
-    ],
-    "mean_targeting": [
-      1.554523444484926
-    ],
-    "mean_distances": [
-      160.07268882244233
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1573.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1182
-    ],
-    "scores": [
-      3030
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      62
-    ],
-    "asteroids_destroyed": [
-      44
-    ],
-    "episode_accuracy": [
-      0.7096774193548387
-    ],
-    "episode_score_per_min": [
-      153.80710659898477
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.563451776649746
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      5.067723279034123
-    ],
-    "mean_targeting": [
-      1.228068389659816
-    ],
-    "mean_distances": [
-      152.59442597524884
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1182.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1489
-    ],
-    "scores": [
-      6230
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      111
-    ],
-    "asteroids_destroyed": [
-      85
-    ],
-    "episode_accuracy": [
-      0.7657657657657657
-    ],
-    "episode_score_per_min": [
-      251.04096709200806
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.184016118200135
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.8569530343913327
-    ],
-    "mean_targeting": [
-      1.5091519322531357
-    ],
-    "mean_distances": [
-      150.01393028698868
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1489.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2076
-    ],
-    "scores": [
-      4380
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      122
-    ],
-    "asteroids_destroyed": [
-      59
-    ],
-    "episode_accuracy": [
-      0.48360655737704916
-    ],
-    "episode_score_per_min": [
-      126.58959537572254
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.1098265895953756
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.6400690319407767
-    ],
-    "mean_targeting": [
-      1.041657279941736
-    ],
-    "mean_distances": [
-      162.23691294468154
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2076.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      902
-    ],
-    "scores": [
-      2360
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      62
-    ],
-    "asteroids_destroyed": [
-      34
-    ],
-    "episode_accuracy": [
-      0.5483870967741935
-    ],
-    "episode_score_per_min": [
-      156.98447893569846
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.6164079822616406
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5482885903305066
-    ],
-    "mean_targeting": [
-      1.03693219795104
-    ],
-    "mean_distances": [
-      191.94823999952058
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      902.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1146
-    ],
-    "scores": [
-      2590
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      57
+      99
     ],
     "asteroids_destroyed": [
       36
     ],
     "episode_accuracy": [
-      0.631578947368421
+      0.36363636363636365
     ],
     "episode_score_per_min": [
-      135.6020942408377
+      111.64901664145233
     ],
     "episode_reward_per_min": [
       59.99999999999999
     ],
     "episode_score_reward_ratio": [
-      2.2600349040139616
+      1.8608169440242057
     ],
     "hyperspace_used": [
       2
@@ -896,19 +368,19 @@
       3
     ],
     "mean_speeds": [
-      1.2642598793196635
+      0.0
     ],
     "mean_targeting": [
-      0.8438113744025968
+      0.8732060977097345
     ],
     "mean_distances": [
-      158.08993358018841
+      145.26065853542863
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1146.0
+      1322.0
     ],
     "episode_max_reward": [
       1.0
@@ -926,1063 +398,7 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1528
-    ],
-    "scores": [
-      5410
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      118
-    ],
-    "asteroids_destroyed": [
-      73
-    ],
-    "episode_accuracy": [
-      0.6186440677966102
-    ],
-    "episode_score_per_min": [
-      212.434554973822
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      3.5405759162303663
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.1478291115582144
-    ],
-    "mean_targeting": [
-      1.65851361622419
-    ],
-    "mean_distances": [
-      172.0405027012391
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1528.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2384
-    ],
-    "scores": [
-      9570
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      186
-    ],
-    "asteroids_destroyed": [
-      129
-    ],
-    "episode_accuracy": [
-      0.6935483870967742
-    ],
-    "episode_score_per_min": [
-      240.85570469798657
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.014261744966443
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.1395646095566527
-    ],
-    "mean_targeting": [
-      1.644280394908615
-    ],
-    "mean_distances": [
-      163.31573014484687
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2384.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1159
-    ],
-    "scores": [
-      4280
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      85
-    ],
-    "asteroids_destroyed": [
-      58
-    ],
-    "episode_accuracy": [
-      0.6823529411764706
-    ],
-    "episode_score_per_min": [
-      221.57031924072476
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.6928386540120792
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5230414795402416
-    ],
-    "mean_targeting": [
-      1.08439741086783
-    ],
-    "mean_distances": [
-      169.83130153836444
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1159.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1263
-    ],
-    "scores": [
-      4230
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      80
-    ],
-    "asteroids_destroyed": [
-      57
-    ],
-    "episode_accuracy": [
-      0.7125
-    ],
-    "episode_score_per_min": [
-      200.9501187648456
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.34916864608076
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.9595276592439446
-    ],
-    "mean_targeting": [
-      1.4260642055345902
-    ],
-    "mean_distances": [
-      171.92842116688942
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1263.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      922
-    ],
-    "scores": [
-      2240
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      52
-    ],
-    "asteroids_destroyed": [
-      31
-    ],
-    "episode_accuracy": [
-      0.5961538461538461
-    ],
-    "episode_score_per_min": [
-      145.7700650759219
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.4295010845986984
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.41416714476207334
-    ],
-    "mean_targeting": [
-      1.7607237567559797
-    ],
-    "mean_distances": [
-      177.31562327649266
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      922.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      732
-    ],
-    "scores": [
-      1980
-    ],
-    "levels": [
-      1
-    ],
-    "bullets_fired": [
-      55
-    ],
-    "asteroids_destroyed": [
-      27
-    ],
-    "episode_accuracy": [
-      0.4909090909090909
-    ],
-    "episode_score_per_min": [
-      162.29508196721312
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.7049180327868854
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.664486711692126
-    ],
-    "mean_targeting": [
-      1.4261498992167079
-    ],
-    "mean_distances": [
-      167.02064570362083
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      732.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1815
-    ],
-    "scores": [
-      5930
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      122
-    ],
-    "asteroids_destroyed": [
-      81
-    ],
-    "episode_accuracy": [
-      0.6639344262295082
-    ],
-    "episode_score_per_min": [
-      196.03305785123968
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.2672176308539944
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.57109638727052
-    ],
-    "mean_targeting": [
-      1.6199376406655326
-    ],
-    "mean_distances": [
-      162.03729820440057
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1815.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2081
-    ],
-    "scores": [
-      9070
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      158
-    ],
-    "asteroids_destroyed": [
-      123
-    ],
-    "episode_accuracy": [
-      0.7784810126582279
-    ],
-    "episode_score_per_min": [
-      261.5088899567516
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      4.3584814992791925
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.0586263634575954
-    ],
-    "mean_targeting": [
-      1.278176679208452
-    ],
-    "mean_distances": [
-      173.53123494776563
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2081.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      649
-    ],
-    "scores": [
-      1680
-    ],
-    "levels": [
-      1
-    ],
-    "bullets_fired": [
-      41
-    ],
-    "asteroids_destroyed": [
-      24
-    ],
-    "episode_accuracy": [
-      0.5853658536585366
-    ],
-    "episode_score_per_min": [
-      155.31587057010785
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.588597842835131
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      6.411705188992761
-    ],
-    "mean_targeting": [
-      0.8093410457252945
-    ],
-    "mean_distances": [
-      168.6516151127316
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      649.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      642
-    ],
-    "scores": [
-      1480
-    ],
-    "levels": [
-      1
-    ],
-    "bullets_fired": [
-      33
-    ],
-    "asteroids_destroyed": [
-      22
-    ],
-    "episode_accuracy": [
-      0.6666666666666666
-    ],
-    "episode_score_per_min": [
-      138.3177570093458
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      2.305295950155763
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.127021324852731
-    ],
-    "mean_targeting": [
-      0.7881692437808172
-    ],
-    "mean_distances": [
-      176.11601123087297
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      642.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      930
-    ],
-    "scores": [
-      3560
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      72
-    ],
-    "asteroids_destroyed": [
-      48
-    ],
-    "episode_accuracy": [
-      0.6666666666666666
-    ],
-    "episode_score_per_min": [
-      229.67741935483872
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.827956989247312
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5761823626775895
-    ],
-    "mean_targeting": [
-      1.028831782649255
-    ],
-    "mean_distances": [
-      191.81910168246844
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      930.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      920
-    ],
-    "scores": [
-      3530
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      70
-    ],
-    "asteroids_destroyed": [
-      50
-    ],
-    "episode_accuracy": [
-      0.7142857142857143
-    ],
-    "episode_score_per_min": [
-      230.2173913043478
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.8369565217391304
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.3682493315928657
-    ],
-    "mean_targeting": [
-      1.2171462562606836
-    ],
-    "mean_distances": [
-      196.80002822898683
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      920.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      874
-    ],
-    "scores": [
-      3480
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      65
-    ],
-    "asteroids_destroyed": [
-      48
-    ],
-    "episode_accuracy": [
-      0.7384615384615385
-    ],
-    "episode_score_per_min": [
-      238.90160183066362
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.9816933638443937
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.30614148020676124
-    ],
-    "mean_targeting": [
-      1.268304095381172
-    ],
-    "mean_distances": [
-      133.3474615248354
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      874.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1568
-    ],
-    "scores": [
-      5550
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      115
-    ],
-    "asteroids_destroyed": [
-      78
-    ],
-    "episode_accuracy": [
-      0.6782608695652174
-    ],
-    "episode_score_per_min": [
-      212.37244897959184
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.5395408163265305
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      5.20203573346062
-    ],
-    "mean_targeting": [
-      0.7836895972144072
-    ],
-    "mean_distances": [
-      153.12388385705606
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1568.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2538
-    ],
-    "scores": [
-      4430
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      153
-    ],
-    "asteroids_destroyed": [
-      59
-    ],
-    "episode_accuracy": [
-      0.38562091503267976
-    ],
-    "episode_score_per_min": [
-      104.72813238770686
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      1.7454688731284476
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      11.791455045330704
-    ],
-    "mean_targeting": [
-      1.1097379882214322
-    ],
-    "mean_distances": [
-      197.22065140078243
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2538.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2608
-    ],
-    "scores": [
-      8930
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      188
-    ],
-    "asteroids_destroyed": [
-      118
-    ],
-    "episode_accuracy": [
-      0.6276595744680851
-    ],
-    "episode_score_per_min": [
-      205.44478527607362
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.424079754601227
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.9575763182104651
-    ],
-    "mean_targeting": [
-      1.1699017604838104
-    ],
-    "mean_distances": [
-      185.277223816611
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2608.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2108
+      1803
     ],
     "scores": [
       6000
@@ -1991,22 +407,88 @@
       3
     ],
     "bullets_fired": [
-      144
+      145
     ],
     "asteroids_destroyed": [
-      83
+      82
     ],
     "episode_accuracy": [
-      0.5763888888888888
+      0.5655172413793104
     ],
     "episode_score_per_min": [
-      170.77798861480076
+      199.66722129783693
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      2.846299810246679
+      3.327787021630616
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1105912962635447
+    ],
+    "mean_distances": [
+      136.93753026696223
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1803.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      712
+    ],
+    "scores": [
+      1530
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      56
+    ],
+    "asteroids_destroyed": [
+      22
+    ],
+    "episode_accuracy": [
+      0.39285714285714285
+    ],
+    "episode_score_per_min": [
+      128.93258426966293
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.148876404494382
     ],
     "hyperspace_used": [
       1
@@ -2018,19 +500,19 @@
       3
     ],
     "mean_speeds": [
-      5.17339119230321
+      0.0
     ],
     "mean_targeting": [
-      1.3645609649600556
+      1.15079011836513
     ],
     "mean_distances": [
-      172.95738514786413
+      144.8841098207307
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      2108.0
+      712.0
     ],
     "episode_max_reward": [
       1.0
@@ -2048,166 +530,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1617
+      1093
     ],
     "scores": [
-      6360
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      126
-    ],
-    "asteroids_destroyed": [
-      85
-    ],
-    "episode_accuracy": [
-      0.6746031746031746
-    ],
-    "episode_score_per_min": [
-      235.99257884972172
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.933209647495362
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      6.133126321076499
-    ],
-    "mean_targeting": [
-      1.181084684359826
-    ],
-    "mean_distances": [
-      178.97740508664143
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1617.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1244
-    ],
-    "scores": [
-      5010
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      89
-    ],
-    "asteroids_destroyed": [
-      68
-    ],
-    "episode_accuracy": [
-      0.7640449438202247
-    ],
-    "episode_score_per_min": [
-      241.63987138263664
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.027331189710611
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.7327593067163822
-    ],
-    "mean_targeting": [
-      1.1868691546502177
-    ],
-    "mean_distances": [
-      167.9776436427547
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1244.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      860
-    ],
-    "scores": [
-      3130
+      2420
     ],
     "levels": [
       2
     ],
     "bullets_fired": [
-      57
+      81
     ],
     "asteroids_destroyed": [
-      46
+      33
     ],
     "episode_accuracy": [
-      0.8070175438596491
+      0.4074074074074074
     ],
     "episode_score_per_min": [
-      218.37209302325581
+      132.84537968892957
     ],
     "episode_reward_per_min": [
-      60.0
+      60.00000000000001
     ],
     "episode_score_reward_ratio": [
-      3.63953488372093
+      2.2140896614821592
     ],
     "hyperspace_used": [
-      1
+      2
     ],
     "lives_lost": [
       3
@@ -2216,19 +566,19 @@
       3
     ],
     "mean_speeds": [
-      2.321302409781966
+      0.0
     ],
     "mean_targeting": [
-      1.5774083470046232
+      1.0968356813886917
     ],
     "mean_distances": [
-      169.2593395078498
+      163.60968493706136
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      860.0
+      1093.0
     ],
     "episode_max_reward": [
       1.0
@@ -2246,101 +596,167 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1260
+      1301
     ],
     "scores": [
-      6050
+      3060
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      88
+    ],
+    "asteroids_destroyed": [
+      43
+    ],
+    "episode_accuracy": [
+      0.48863636363636365
+    ],
+    "episode_score_per_min": [
+      141.12221368178325
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.352036894696387
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.41013198727419387
+    ],
+    "mean_distances": [
+      195.97683755739905
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1301.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1362
+    ],
+    "scores": [
+      3980
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      107
+    ],
+    "asteroids_destroyed": [
+      54
+    ],
+    "episode_accuracy": [
+      0.5046728971962616
+    ],
+    "episode_score_per_min": [
+      175.33039647577093
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.922173274596182
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.3371296825270662
+    ],
+    "mean_distances": [
+      165.35575536229248
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1362.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2465
+    ],
+    "scores": [
+      5430
     ],
     "levels": [
       3
     ],
     "bullets_fired": [
-      94
+      177
     ],
     "asteroids_destroyed": [
-      83
+      75
     ],
     "episode_accuracy": [
-      0.8829787234042553
+      0.423728813559322
     ],
     "episode_score_per_min": [
-      288.0952380952381
+      132.17038539553752
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      4.801587301587301
+      2.202839756592292
     ],
     "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.371995700328123
-    ],
-    "mean_targeting": [
-      1.5859760540609154
-    ],
-    "mean_distances": [
-      152.0162021362008
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1260.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2610
-    ],
-    "scores": [
-      10990
-    ],
-    "levels": [
       4
     ],
-    "bullets_fired": [
-      186
-    ],
-    "asteroids_destroyed": [
-      146
-    ],
-    "episode_accuracy": [
-      0.7849462365591398
-    ],
-    "episode_score_per_min": [
-      252.64367816091954
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.210727969348659
-    ],
-    "hyperspace_used": [
-      3
-    ],
     "lives_lost": [
       3
     ],
@@ -2348,19 +764,19 @@
       3
     ],
     "mean_speeds": [
-      2.1390215648259696
+      0.0
     ],
     "mean_targeting": [
-      1.3816573137733266
+      0.6155046014689912
     ],
     "mean_distances": [
-      179.36346657575552
+      170.9106190203827
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      2610.0
+      2465.0
     ],
     "episode_max_reward": [
       1.0
@@ -2378,271 +794,7 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1113
-    ],
-    "scores": [
-      2790
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      66
-    ],
-    "asteroids_destroyed": [
-      39
-    ],
-    "episode_accuracy": [
-      0.5909090909090909
-    ],
-    "episode_score_per_min": [
-      150.4043126684636
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.5067385444743935
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      5.493820725974476
-    ],
-    "mean_targeting": [
-      1.4667841133970707
-    ],
-    "mean_distances": [
-      181.01526184768863
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1113.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1562
-    ],
-    "scores": [
-      4680
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      95
-    ],
-    "asteroids_destroyed": [
-      62
-    ],
-    "episode_accuracy": [
-      0.6526315789473685
-    ],
-    "episode_score_per_min": [
-      179.76952624839947
-    ],
-    "episode_reward_per_min": [
-      59.99999999999999
-    ],
-    "episode_score_reward_ratio": [
-      2.996158770806658
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      3.173257968308602
-    ],
-    "mean_targeting": [
-      1.316495486757155
-    ],
-    "mean_distances": [
-      192.7776618245184
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1562.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      3041
-    ],
-    "scores": [
-      12860
-    ],
-    "levels": [
-      5
-    ],
-    "bullets_fired": [
-      223
-    ],
-    "asteroids_destroyed": [
-      173
-    ],
-    "episode_accuracy": [
-      0.7757847533632287
-    ],
-    "episode_score_per_min": [
-      253.73232489312727
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      4.228872081552121
-    ],
-    "hyperspace_used": [
-      3
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.0936084810358957
-    ],
-    "mean_targeting": [
-      1.35830717243988
-    ],
-    "mean_distances": [
-      185.63681087086198
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      3041.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1153
-    ],
-    "scores": [
-      3210
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      65
-    ],
-    "asteroids_destroyed": [
-      45
-    ],
-    "episode_accuracy": [
-      0.6923076923076923
-    ],
-    "episode_score_per_min": [
-      167.0424978317433
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      2.7840416305290545
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      4.526250841327057
-    ],
-    "mean_targeting": [
-      0.9189846397080159
-    ],
-    "mean_distances": [
-      145.85038987100572
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1153.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      851
+      1606
     ],
     "scores": [
       3330
@@ -2651,22 +803,748 @@
       2
     ],
     "bullets_fired": [
-      57
+      126
     ],
     "asteroids_destroyed": [
-      47
+      46
     ],
     "episode_accuracy": [
-      0.8245614035087719
+      0.36507936507936506
     ],
     "episode_score_per_min": [
-      234.78260869565216
+      124.40846824408469
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.9130434782608696
+      2.0734744707347446
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9953672218452064
+    ],
+    "mean_distances": [
+      159.15002525644925
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1606.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2789
+    ],
+    "scores": [
+      6600
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      205
+    ],
+    "asteroids_destroyed": [
+      90
+    ],
+    "episode_accuracy": [
+      0.43902439024390244
+    ],
+    "episode_score_per_min": [
+      141.98637504481894
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.3664395840803154
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1806224656482818
+    ],
+    "mean_distances": [
+      212.4332046658816
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2789.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      987
+    ],
+    "scores": [
+      1680
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      73
+    ],
+    "asteroids_destroyed": [
+      24
+    ],
+    "episode_accuracy": [
+      0.3287671232876712
+    ],
+    "episode_score_per_min": [
+      102.12765957446808
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.702127659574468
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.763559943796329
+    ],
+    "mean_distances": [
+      159.95666815484844
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      987.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3084
+    ],
+    "scores": [
+      6500
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      213
+    ],
+    "asteroids_destroyed": [
+      89
+    ],
+    "episode_accuracy": [
+      0.41784037558685444
+    ],
+    "episode_score_per_min": [
+      126.4591439688716
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.1076523994811933
+    ],
+    "hyperspace_used": [
+      5
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.136187160597817
+    ],
+    "mean_targeting": [
+      0.6419299592076858
+    ],
+    "mean_distances": [
+      195.83496917655734
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3084.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3076
+    ],
+    "scores": [
+      5800
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      206
+    ],
+    "asteroids_destroyed": [
+      80
+    ],
+    "episode_accuracy": [
+      0.3883495145631068
+    ],
+    "episode_score_per_min": [
+      113.13394018205462
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.8855656697009102
+    ],
+    "hyperspace_used": [
+      5
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.6923152277093522
+    ],
+    "mean_targeting": [
+      0.7085879373859719
+    ],
+    "mean_distances": [
+      240.52620643043454
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3076.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1930
+    ],
+    "scores": [
+      5090
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      139
+    ],
+    "asteroids_destroyed": [
+      69
+    ],
+    "episode_accuracy": [
+      0.49640287769784175
+    ],
+    "episode_score_per_min": [
+      158.23834196891193
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.6373056994818653
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9914249556055803
+    ],
+    "mean_distances": [
+      154.50598152593622
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1930.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2155
+    ],
+    "scores": [
+      5580
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      160
+    ],
+    "asteroids_destroyed": [
+      77
+    ],
+    "episode_accuracy": [
+      0.48125
+    ],
+    "episode_score_per_min": [
+      155.35962877030164
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.589327146171694
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.8019263258304142
+    ],
+    "mean_distances": [
+      176.86084610979827
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2155.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2482
+    ],
+    "scores": [
+      5370
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      172
+    ],
+    "asteroids_destroyed": [
+      71
+    ],
+    "episode_accuracy": [
+      0.4127906976744186
+    ],
+    "episode_score_per_min": [
+      129.8146655922643
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.163577759871072
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.5696093809102736
+    ],
+    "mean_targeting": [
+      0.8546504800516072
+    ],
+    "mean_distances": [
+      188.11461407222768
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2482.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1674
+    ],
+    "scores": [
+      3930
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      125
+    ],
+    "asteroids_destroyed": [
+      54
+    ],
+    "episode_accuracy": [
+      0.432
+    ],
+    "episode_score_per_min": [
+      140.86021505376345
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.347670250896057
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.8748551703573794
+    ],
+    "mean_distances": [
+      167.3860834880706
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1674.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2675
+    ],
+    "scores": [
+      4680
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      184
+    ],
+    "asteroids_destroyed": [
+      62
+    ],
+    "episode_accuracy": [
+      0.33695652173913043
+    ],
+    "episode_score_per_min": [
+      104.97196261682242
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.749532710280374
+    ],
+    "hyperspace_used": [
+      5
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.6472936563569809
+    ],
+    "mean_targeting": [
+      1.2646410431071127
+    ],
+    "mean_distances": [
+      227.07369353998064
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2675.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1191
+    ],
+    "scores": [
+      2540
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      83
+    ],
+    "asteroids_destroyed": [
+      36
+    ],
+    "episode_accuracy": [
+      0.43373493975903615
+    ],
+    "episode_score_per_min": [
+      127.95969773299747
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.1326616288832914
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.923647451551706
+    ],
+    "mean_distances": [
+      178.45255847193357
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1191.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1038
+    ],
+    "scores": [
+      1430
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      81
+    ],
+    "asteroids_destroyed": [
+      21
+    ],
+    "episode_accuracy": [
+      0.25925925925925924
+    ],
+    "episode_score_per_min": [
+      82.65895953757224
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.3776493256262043
     ],
     "hyperspace_used": [
       1
@@ -2678,19 +1556,19 @@
       3
     ],
     "mean_speeds": [
-      1.841157901301087
+      0.26426769132673855
     ],
     "mean_targeting": [
-      1.2774961242030325
+      1.5634900018112814
     ],
     "mean_distances": [
-      135.05571283433707
+      187.75813493410305
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      851.0
+      1038.0
     ],
     "episode_max_reward": [
       1.0
@@ -2708,34 +1586,100 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1600
+      2044
     ],
     "scores": [
-      5310
+      6880
     ],
     "levels": [
       3
     ],
     "bullets_fired": [
-      124
+      155
     ],
     "asteroids_destroyed": [
-      72
+      92
     ],
     "episode_accuracy": [
-      0.5806451612903226
+      0.5935483870967742
     ],
     "episode_score_per_min": [
-      199.125
+      201.9569471624266
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      3.3659491193737767
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.6140790126742209
+    ],
+    "mean_distances": [
+      149.2752703136658
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2044.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2759
+    ],
+    "scores": [
+      5710
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      204
+    ],
+    "asteroids_destroyed": [
+      77
+    ],
+    "episode_accuracy": [
+      0.37745098039215685
+    ],
+    "episode_score_per_min": [
+      124.17542587894164
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.31875
+      2.069590431315694
     ],
     "hyperspace_used": [
-      0
+      4
     ],
     "lives_lost": [
       3
@@ -2744,19 +1688,19 @@
       3
     ],
     "mean_speeds": [
-      1.6947109209839255
+      0.0
     ],
     "mean_targeting": [
-      1.9660365484287103
+      1.2091951076648946
     ],
     "mean_distances": [
-      198.9721495972025
+      182.40965061015507
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1600.0
+      2759.0
     ],
     "episode_max_reward": [
       1.0
@@ -2774,100 +1718,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1960
+      3257
     ],
     "scores": [
-      6980
+      4950
     ],
     "levels": [
       3
     ],
     "bullets_fired": [
-      134
-    ],
-    "asteroids_destroyed": [
-      93
-    ],
-    "episode_accuracy": [
-      0.6940298507462687
-    ],
-    "episode_score_per_min": [
-      213.67346938775512
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      3.561224489795918
-    ],
-    "hyperspace_used": [
-      3
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.030259876188879
-    ],
-    "mean_targeting": [
-      1.8303449845174484
-    ],
-    "mean_distances": [
-      167.88165472268938
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1960.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1495
-    ],
-    "scores": [
-      4920
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      93
+      231
     ],
     "asteroids_destroyed": [
       65
     ],
     "episode_accuracy": [
-      0.6989247311827957
+      0.2813852813852814
     ],
     "episode_score_per_min": [
-      197.4581939799331
+      91.18821000921093
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.290969899665552
+      1.5198035001535155
     ],
     "hyperspace_used": [
-      2
+      5
     ],
     "lives_lost": [
       3
@@ -2876,19 +1754,19 @@
       3
     ],
     "mean_speeds": [
-      3.881866230833092
+      0.0
     ],
     "mean_targeting": [
-      1.194450621012477
+      0.9774200897637204
     ],
     "mean_distances": [
-      151.21085258089025
+      170.30630397375035
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1495.0
+      3257.0
     ],
     "episode_max_reward": [
       1.0
@@ -2906,31 +1784,97 @@
   {
     "episodes": 1,
     "episode_steps": [
-      1842
+      2394
     ],
     "scores": [
-      8120
+      9070
     ],
     "levels": [
       4
     ],
     "bullets_fired": [
-      136
+      176
     ],
     "asteroids_destroyed": [
-      106
+      124
     ],
     "episode_accuracy": [
-      0.7794117647058824
+      0.7045454545454546
     ],
     "episode_score_per_min": [
-      264.49511400651465
+      227.31829573934837
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      4.408251900108578
+      3.788638262322473
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.21937890548753858
+    ],
+    "mean_targeting": [
+      1.30726960347861
+    ],
+    "mean_distances": [
+      139.393566373993
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2394.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1486
+    ],
+    "scores": [
+      4380
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      112
+    ],
+    "asteroids_destroyed": [
+      59
+    ],
+    "episode_accuracy": [
+      0.5267857142857143
+    ],
+    "episode_score_per_min": [
+      176.8506056527591
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.9475100942126513
     ],
     "hyperspace_used": [
       2
@@ -2942,19 +1886,217 @@
       3
     ],
     "mean_speeds": [
-      1.093680164575512
+      0.0
     ],
     "mean_targeting": [
-      1.3782257205434174
+      0.5028343545787182
     ],
     "mean_distances": [
-      146.4787767727411
+      155.45868554137064
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1842.0
+      1486.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1393
+    ],
+    "scores": [
+      2710
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      104
+    ],
+    "asteroids_destroyed": [
+      38
+    ],
+    "episode_accuracy": [
+      0.36538461538461536
+    ],
+    "episode_score_per_min": [
+      116.72648959081121
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      1.9454414931801867
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.7583692869472343
+    ],
+    "mean_distances": [
+      160.86988730644026
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1393.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1358
+    ],
+    "scores": [
+      2340
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      93
+    ],
+    "asteroids_destroyed": [
+      33
+    ],
+    "episode_accuracy": [
+      0.3548387096774194
+    ],
+    "episode_score_per_min": [
+      103.38733431516937
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.7231222385861562
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.5812355670058486
+    ],
+    "mean_distances": [
+      180.67060310943177
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1358.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1602
+    ],
+    "scores": [
+      4030
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      124
+    ],
+    "asteroids_destroyed": [
+      55
+    ],
+    "episode_accuracy": [
+      0.4435483870967742
+    ],
+    "episode_score_per_min": [
+      150.93632958801498
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.515605493133583
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1609180108273411
+    ],
+    "mean_distances": [
+      158.0420396036849
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1602.0
     ],
     "episode_max_reward": [
       1.0
@@ -2975,31 +2117,31 @@
       917
     ],
     "scores": [
-      3230
+      2390
     ],
     "levels": [
       2
     ],
     "bullets_fired": [
-      65
+      67
     ],
     "asteroids_destroyed": [
-      46
+      33
     ],
     "episode_accuracy": [
-      0.7076923076923077
+      0.4925373134328358
     ],
     "episode_score_per_min": [
-      211.3413304252999
+      156.37949836423118
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.5223555070883314
+      2.6063249727371867
     ],
     "hyperspace_used": [
-      1
+      2
     ],
     "lives_lost": [
       3
@@ -3008,13 +2150,13 @@
       3
     ],
     "mean_speeds": [
-      5.503627134675938
+      0.0
     ],
     "mean_targeting": [
-      0.7148428153854791
+      1.3563228090910702
     ],
     "mean_distances": [
-      165.62586143454686
+      160.94611633650428
     ],
     "deaths_by": [
       "collision"
@@ -3038,31 +2180,31 @@
   {
     "episodes": 1,
     "episode_steps": [
-      2091
+      1827
     ],
     "scores": [
-      7030
+      5850
     ],
     "levels": [
       3
     ],
     "bullets_fired": [
-      132
+      135
     ],
     "asteroids_destroyed": [
-      93
+      81
     ],
     "episode_accuracy": [
-      0.7045454545454546
+      0.6
     ],
     "episode_score_per_min": [
-      201.72166427546628
+      192.11822660098522
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      3.362027737924438
+      3.2019704433497536
     ],
     "hyperspace_used": [
       2
@@ -3074,19 +2216,19 @@
       3
     ],
     "mean_speeds": [
-      5.95219709343998
+      0.5780547745954031
     ],
     "mean_targeting": [
-      1.3658934404242844
+      0.8528459516598291
     ],
     "mean_distances": [
-      171.49905538743823
+      177.2424490793587
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      2091.0
+      1827.0
     ],
     "episode_max_reward": [
       1.0
@@ -3104,1288 +2246,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      926
+      1356
     ],
     "scores": [
-      2930
+      3780
     ],
     "levels": [
       2
     ],
     "bullets_fired": [
-      52
-    ],
-    "asteroids_destroyed": [
-      42
-    ],
-    "episode_accuracy": [
-      0.8076923076923077
-    ],
-    "episode_score_per_min": [
-      189.8488120950324
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.16414686825054
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      4.413170707068098
-    ],
-    "mean_targeting": [
-      0.8357764532011701
-    ],
-    "mean_distances": [
-      152.31120862911646
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      926.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1747
-    ],
-    "scores": [
-      5590
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      106
-    ],
-    "asteroids_destroyed": [
-      75
-    ],
-    "episode_accuracy": [
-      0.7075471698113207
-    ],
-    "episode_score_per_min": [
-      191.9862621637092
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.1997710360618203
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.2930303586334517
-    ],
-    "mean_targeting": [
-      1.3279077303629994
-    ],
-    "mean_distances": [
-      182.95727520566575
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1747.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      635
-    ],
-    "scores": [
-      2200
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      42
-    ],
-    "asteroids_destroyed": [
-      29
-    ],
-    "episode_accuracy": [
-      0.6904761904761905
-    ],
-    "episode_score_per_min": [
-      207.8740157480315
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.4645669291338583
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      3.1960177264110308
-    ],
-    "mean_targeting": [
-      1.6361078675559215
-    ],
-    "mean_distances": [
-      127.40018920326588
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      635.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1549
-    ],
-    "scores": [
-      6900
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      114
-    ],
-    "asteroids_destroyed": [
-      94
-    ],
-    "episode_accuracy": [
-      0.8245614035087719
-    ],
-    "episode_score_per_min": [
-      267.26920593931567
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.454486765655261
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      4.213286669851504
-    ],
-    "mean_targeting": [
-      1.292345437430393
-    ],
-    "mean_distances": [
-      191.4232237831612
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1549.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2361
-    ],
-    "scores": [
-      8950
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      172
-    ],
-    "asteroids_destroyed": [
-      121
-    ],
-    "episode_accuracy": [
-      0.7034883720930233
-    ],
-    "episode_score_per_min": [
-      227.44599745870394
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.790766624311732
-    ],
-    "hyperspace_used": [
-      3
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.9489598953019558
-    ],
-    "mean_targeting": [
-      1.2227060219204597
-    ],
-    "mean_distances": [
-      183.23506287945378
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2361.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1688
-    ],
-    "scores": [
-      5650
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      112
-    ],
-    "asteroids_destroyed": [
-      79
-    ],
-    "episode_accuracy": [
-      0.7053571428571429
-    ],
-    "episode_score_per_min": [
-      200.82938388625593
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.3471563981042656
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.591682730240403
-    ],
-    "mean_targeting": [
-      1.452742144544205
-    ],
-    "mean_distances": [
-      198.20832352153434
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1688.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1395
-    ],
-    "scores": [
-      4580
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      92
-    ],
-    "asteroids_destroyed": [
-      61
-    ],
-    "episode_accuracy": [
-      0.6630434782608695
-    ],
-    "episode_score_per_min": [
-      196.98924731182797
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.283154121863799
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      3.110361246609773
-    ],
-    "mean_targeting": [
-      1.0307327860475781
-    ],
-    "mean_distances": [
-      148.61956545942462
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1395.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1884
-    ],
-    "scores": [
-      5510
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      128
-    ],
-    "asteroids_destroyed": [
-      74
-    ],
-    "episode_accuracy": [
-      0.578125
-    ],
-    "episode_score_per_min": [
-      175.47770700636943
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.924628450106157
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.6828609282059905
-    ],
-    "mean_targeting": [
-      1.0102727117333274
-    ],
-    "mean_distances": [
-      190.69497814667992
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1884.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2062
-    ],
-    "scores": [
-      8500
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      154
-    ],
-    "asteroids_destroyed": [
-      115
-    ],
-    "episode_accuracy": [
-      0.7467532467532467
-    ],
-    "episode_score_per_min": [
-      247.33268671193017
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.122211445198836
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5494115945063784
-    ],
-    "mean_targeting": [
-      1.056518335357189
-    ],
-    "mean_distances": [
-      168.70556449251458
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2062.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1436
-    ],
-    "scores": [
-      5910
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      108
-    ],
-    "asteroids_destroyed": [
-      80
-    ],
-    "episode_accuracy": [
-      0.7407407407407407
-    ],
-    "episode_score_per_min": [
-      246.9359331476323
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.1155988857938715
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.1936350769381503
-    ],
-    "mean_targeting": [
-      1.6099872218128426
-    ],
-    "mean_distances": [
-      145.8877904778819
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1436.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1593
-    ],
-    "scores": [
-      5100
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      108
-    ],
-    "asteroids_destroyed": [
-      67
-    ],
-    "episode_accuracy": [
-      0.6203703703703703
-    ],
-    "episode_score_per_min": [
-      192.090395480226
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.2015065913371
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.6684135049300903
-    ],
-    "mean_targeting": [
-      1.6622310555588418
-    ],
-    "mean_distances": [
-      178.3738987260223
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1593.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1257
-    ],
-    "scores": [
-      4580
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      86
-    ],
-    "asteroids_destroyed": [
-      61
-    ],
-    "episode_accuracy": [
-      0.7093023255813954
-    ],
-    "episode_score_per_min": [
-      218.61575178997614
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.643595863166269
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      3.0922305256531364
-    ],
-    "mean_targeting": [
-      1.2688644356562306
-    ],
-    "mean_distances": [
-      148.0003404494517
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1257.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2536
-    ],
-    "scores": [
-      10090
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      177
-    ],
-    "asteroids_destroyed": [
-      136
-    ],
-    "episode_accuracy": [
-      0.768361581920904
-    ],
-    "episode_score_per_min": [
-      238.7223974763407
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.978706624605678
-    ],
-    "hyperspace_used": [
-      3
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.0672530141374104
-    ],
-    "mean_targeting": [
-      1.3194086021949116
-    ],
-    "mean_distances": [
-      162.14636815643289
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2536.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1214
-    ],
-    "scores": [
-      4080
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      90
-    ],
-    "asteroids_destroyed": [
-      56
-    ],
-    "episode_accuracy": [
-      0.6222222222222222
-    ],
-    "episode_score_per_min": [
-      201.6474464579901
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.360790774299835
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.1477691959559033
-    ],
-    "mean_targeting": [
-      1.496953002395902
-    ],
-    "mean_distances": [
-      165.34213295245178
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1214.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      927
-    ],
-    "scores": [
-      2980
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      67
-    ],
-    "asteroids_destroyed": [
-      43
-    ],
-    "episode_accuracy": [
-      0.6417910447761194
-    ],
-    "episode_score_per_min": [
-      192.8802588996764
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.214670981661273
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.5268407173880738
-    ],
-    "mean_targeting": [
-      1.599884371268674
-    ],
-    "mean_distances": [
-      209.64416915134345
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      927.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1751
-    ],
-    "scores": [
-      7900
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      140
-    ],
-    "asteroids_destroyed": [
       104
     ],
-    "episode_accuracy": [
-      0.7428571428571429
-    ],
-    "episode_score_per_min": [
-      270.7024557395774
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.511707595659623
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.6805414757848228
-    ],
-    "mean_targeting": [
-      1.3328729506140802
-    ],
-    "mean_distances": [
-      162.80139616571503
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1751.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1413
-    ],
-    "scores": [
-      6550
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      106
-    ],
     "asteroids_destroyed": [
-      89
+      52
     ],
     "episode_accuracy": [
-      0.839622641509434
+      0.5
     ],
     "episode_score_per_min": [
-      278.1316348195329
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.635527246992215
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      6.060775949180084
-    ],
-    "mean_targeting": [
-      1.262167165381502
-    ],
-    "mean_distances": [
-      169.9343121358568
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1413.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      821
-    ],
-    "scores": [
-      2960
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      59
-    ],
-    "asteroids_destroyed": [
-      41
-    ],
-    "episode_accuracy": [
-      0.6949152542372882
-    ],
-    "episode_score_per_min": [
-      216.32155907429964
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.605359317904994
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.1768137173915461
-    ],
-    "mean_targeting": [
-      2.107531257464729
-    ],
-    "mean_distances": [
-      173.02502275929925
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      821.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1221
-    ],
-    "scores": [
-      4480
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      91
-    ],
-    "asteroids_destroyed": [
-      60
-    ],
-    "episode_accuracy": [
-      0.6593406593406593
-    ],
-    "episode_score_per_min": [
-      220.14742014742012
+      167.2566371681416
     ],
     "episode_reward_per_min": [
       59.99999999999999
     ],
     "episode_score_reward_ratio": [
-      3.6691236691236693
+      2.7876106194690267
     ],
     "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5257749808532697
-    ],
-    "mean_targeting": [
-      1.235990829707156
-    ],
-    "mean_distances": [
-      209.66522174982813
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1221.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1410
-    ],
-    "scores": [
-      5780
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      109
-    ],
-    "asteroids_destroyed": [
-      79
-    ],
-    "episode_accuracy": [
-      0.7247706422018348
-    ],
-    "episode_score_per_min": [
-      245.95744680851064
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.099290780141844
-    ],
-    "hyperspace_used": [
-      1
+      2
     ],
     "lives_lost": [
       3
@@ -4397,16 +2285,16 @@
       0.0
     ],
     "mean_targeting": [
-      2.241278066866618
+      0.7955583272170452
     ],
     "mean_distances": [
-      157.44080522752975
+      142.22821514218427
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1410.0
+      1356.0
     ],
     "episode_max_reward": [
       1.0
@@ -4424,163 +2312,31 @@
   {
     "episodes": 1,
     "episode_steps": [
-      2039
+      1314
     ],
     "scores": [
-      8730
+      1880
     ],
     "levels": [
-      4
-    ],
-    "bullets_fired": [
-      154
-    ],
-    "asteroids_destroyed": [
-      117
-    ],
-    "episode_accuracy": [
-      0.7597402597402597
-    ],
-    "episode_score_per_min": [
-      256.8906326630701
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.281510544384502
-    ],
-    "hyperspace_used": [
       1
     ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.7395612294107399
-    ],
-    "mean_targeting": [
-      1.6183049470391209
-    ],
-    "mean_distances": [
-      178.1956917042011
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2039.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1102
-    ],
-    "scores": [
-      4280
-    ],
-    "levels": [
-      2
-    ],
     "bullets_fired": [
-      81
+      95
     ],
     "asteroids_destroyed": [
-      58
+      26
     ],
     "episode_accuracy": [
-      0.7160493827160493
+      0.2736842105263158
     ],
     "episode_score_per_min": [
-      233.03085299455535
+      85.84474885844749
     ],
     "episode_reward_per_min": [
-      60.0
+      60.00000000000001
     ],
     "episode_score_reward_ratio": [
-      3.8838475499092557
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.2099166853106607
-    ],
-    "mean_targeting": [
-      1.42288755322645
-    ],
-    "mean_distances": [
-      149.41302474492483
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1102.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1283
-    ],
-    "scores": [
-      4580
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      90
-    ],
-    "asteroids_destroyed": [
-      61
-    ],
-    "episode_accuracy": [
-      0.6777777777777778
-    ],
-    "episode_score_per_min": [
-      214.1855027279813
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.5697583787996883
+      1.430745814307458
     ],
     "hyperspace_used": [
       2
@@ -4592,19 +2348,19 @@
       3
     ],
     "mean_speeds": [
-      1.4860801673548723
+      0.0
     ],
     "mean_targeting": [
-      1.274809580686324
+      0.15057523041988008
     ],
     "mean_distances": [
-      156.7415646108036
+      190.01344956731367
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1283.0
+      1314.0
     ],
     "episode_max_reward": [
       1.0
@@ -4622,1063 +2378,7 @@
   {
     "episodes": 1,
     "episode_steps": [
-      3145
-    ],
-    "scores": [
-      8660
-    ],
-    "levels": [
-      4
-    ],
-    "bullets_fired": [
-      192
-    ],
-    "asteroids_destroyed": [
-      115
-    ],
-    "episode_accuracy": [
-      0.5989583333333334
-    ],
-    "episode_score_per_min": [
-      165.214626391097
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.753577106518283
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      8.866076985238466
-    ],
-    "mean_targeting": [
-      1.073979680532789
-    ],
-    "mean_distances": [
-      201.24187852388198
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      3145.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1412
-    ],
-    "scores": [
-      5730
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      112
-    ],
-    "asteroids_destroyed": [
-      78
-    ],
-    "episode_accuracy": [
-      0.6964285714285714
-    ],
-    "episode_score_per_min": [
-      243.48441926345606
-    ],
-    "episode_reward_per_min": [
-      59.99999999999999
-    ],
-    "episode_score_reward_ratio": [
-      4.058073654390935
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.33466109519998516
-    ],
-    "mean_targeting": [
-      1.440373537267965
-    ],
-    "mean_distances": [
-      156.16819184375518
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1412.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      894
-    ],
-    "scores": [
-      2380
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      57
-    ],
-    "asteroids_destroyed": [
-      35
-    ],
-    "episode_accuracy": [
-      0.6140350877192983
-    ],
-    "episode_score_per_min": [
-      159.73154362416108
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.6621923937360177
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.41249352165183234
-    ],
-    "mean_targeting": [
-      0.8781539133270153
-    ],
-    "mean_distances": [
-      168.8089055225451
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      894.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      986
-    ],
-    "scores": [
-      3480
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      65
-    ],
-    "asteroids_destroyed": [
-      49
-    ],
-    "episode_accuracy": [
-      0.7538461538461538
-    ],
-    "episode_score_per_min": [
-      211.76470588235293
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.5294117647058822
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.6059758994599869
-    ],
-    "mean_targeting": [
-      1.1647988116263448
-    ],
-    "mean_distances": [
-      155.13858250678402
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      986.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1411
-    ],
-    "scores": [
-      3980
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      96
-    ],
-    "asteroids_destroyed": [
-      54
-    ],
-    "episode_accuracy": [
-      0.5625
-    ],
-    "episode_score_per_min": [
-      169.24167257264352
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.820694542877392
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.513163103438877
-    ],
-    "mean_targeting": [
-      1.0370373615946424
-    ],
-    "mean_distances": [
-      194.8122268717993
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1411.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1395
-    ],
-    "scores": [
-      5600
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      109
-    ],
-    "asteroids_destroyed": [
-      79
-    ],
-    "episode_accuracy": [
-      0.7247706422018348
-    ],
-    "episode_score_per_min": [
-      240.86021505376345
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.014336917562724
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.6376075618369605
-    ],
-    "mean_targeting": [
-      1.3271575896633794
-    ],
-    "mean_distances": [
-      159.76354918845269
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1395.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      927
-    ],
-    "scores": [
-      3830
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      68
-    ],
-    "asteroids_destroyed": [
-      53
-    ],
-    "episode_accuracy": [
-      0.7794117647058824
-    ],
-    "episode_score_per_min": [
-      247.89644012944984
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.1316073354908305
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      2.0104970337246355
-    ],
-    "mean_targeting": [
-      1.3670235176402026
-    ],
-    "mean_distances": [
-      154.7060420169093
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      927.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      993
-    ],
-    "scores": [
-      2840
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      65
-    ],
-    "asteroids_destroyed": [
-      40
-    ],
-    "episode_accuracy": [
-      0.6153846153846154
-    ],
-    "episode_score_per_min": [
-      171.6012084592145
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.8600201409869084
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.4234727019329685
-    ],
-    "mean_targeting": [
-      1.5303070470976443
-    ],
-    "mean_distances": [
-      152.2482813499667
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      993.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2372
-    ],
-    "scores": [
-      7600
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      158
-    ],
-    "asteroids_destroyed": [
-      101
-    ],
-    "episode_accuracy": [
-      0.6392405063291139
-    ],
-    "episode_score_per_min": [
-      192.24283305227658
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.204047217537943
-    ],
-    "hyperspace_used": [
-      3
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.030523154005081616
-    ],
-    "mean_targeting": [
-      1.5481440212377529
-    ],
-    "mean_distances": [
-      169.33797224686842
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2372.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1073
-    ],
-    "scores": [
-      3430
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      75
-    ],
-    "asteroids_destroyed": [
-      49
-    ],
-    "episode_accuracy": [
-      0.6533333333333333
-    ],
-    "episode_score_per_min": [
-      191.7986952469711
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.196644920782852
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.5150473252397103
-    ],
-    "mean_targeting": [
-      1.2929332223010968
-    ],
-    "mean_distances": [
-      159.82506933359812
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1073.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      875
-    ],
-    "scores": [
-      2540
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      56
-    ],
-    "asteroids_destroyed": [
-      35
-    ],
-    "episode_accuracy": [
-      0.625
-    ],
-    "episode_score_per_min": [
-      174.17142857142858
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.902857142857143
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.8059704043354308
-    ],
-    "mean_targeting": [
-      1.1847535335372006
-    ],
-    "mean_distances": [
-      188.72526608004847
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      875.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      879
-    ],
-    "scores": [
-      2930
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      69
-    ],
-    "asteroids_destroyed": [
-      42
-    ],
-    "episode_accuracy": [
-      0.6086956521739131
-    ],
-    "episode_score_per_min": [
-      200.0
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.3333333333333335
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.5889842647029271
-    ],
-    "mean_targeting": [
-      1.4249444614924769
-    ],
-    "mean_distances": [
-      163.29415705758927
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      879.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1099
-    ],
-    "scores": [
-      3280
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      80
-    ],
-    "asteroids_destroyed": [
-      47
-    ],
-    "episode_accuracy": [
-      0.5875
-    ],
-    "episode_score_per_min": [
-      179.07188353048227
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.9845313921747043
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.9959432830774753
-    ],
-    "mean_targeting": [
-      1.632762526248168
-    ],
-    "mean_distances": [
-      193.96116968622508
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1099.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      774
-    ],
-    "scores": [
-      2410
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      56
-    ],
-    "asteroids_destroyed": [
-      35
-    ],
-    "episode_accuracy": [
-      0.625
-    ],
-    "episode_score_per_min": [
-      186.82170542635657
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.1136950904392764
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.22981037284206665
-    ],
-    "mean_targeting": [
-      1.2643211169878525
-    ],
-    "mean_distances": [
-      183.74361244005058
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      774.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1699
-    ],
-    "scores": [
-      7000
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      139
-    ],
-    "asteroids_destroyed": [
-      94
-    ],
-    "episode_accuracy": [
-      0.6762589928057554
-    ],
-    "episode_score_per_min": [
-      247.2042377869335
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.120070629782225
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.021855209504044217
-    ],
-    "mean_targeting": [
-      1.972254425926651
-    ],
-    "mean_distances": [
-      185.68165325731943
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1699.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1447
-    ],
-    "scores": [
-      5680
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      109
-    ],
-    "asteroids_destroyed": [
-      78
-    ],
-    "episode_accuracy": [
-      0.7155963302752294
-    ],
-    "episode_score_per_min": [
-      235.52176917760883
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.925362819626814
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.6369860422615357
-    ],
-    "mean_targeting": [
-      1.6510047922005193
-    ],
-    "mean_distances": [
-      170.3237028138905
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1447.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1439
+      1482
     ],
     "scores": [
       3530
@@ -5687,22 +2387,22 @@
       2
     ],
     "bullets_fired": [
-      94
+      107
     ],
     "asteroids_destroyed": [
       50
     ],
     "episode_accuracy": [
-      0.5319148936170213
+      0.4672897196261682
     ],
     "episode_score_per_min": [
-      147.18554551772064
+      142.91497975708504
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      2.453092425295344
+      2.3819163292847505
     ],
     "hyperspace_used": [
       2
@@ -5714,19 +2414,19 @@
       3
     ],
     "mean_speeds": [
-      1.7295095476738027
+      0.0
     ],
     "mean_targeting": [
-      1.0728022595089963
+      0.9218856303300813
     ],
     "mean_distances": [
-      180.15508079496166
+      220.4062686723389
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      1439.0
+      1482.0
     ],
     "episode_max_reward": [
       1.0
@@ -5744,34 +2444,34 @@
   {
     "episodes": 1,
     "episode_steps": [
-      825
+      2835
     ],
     "scores": [
-      2350
+      4960
     ],
     "levels": [
-      2
+      3
     ],
     "bullets_fired": [
-      52
+      191
     ],
     "asteroids_destroyed": [
-      31
+      67
     ],
     "episode_accuracy": [
-      0.5961538461538461
+      0.3507853403141361
     ],
     "episode_score_per_min": [
-      170.9090909090909
+      104.97354497354497
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      2.8484848484848486
+      1.7495590828924161
     ],
     "hyperspace_used": [
-      0
+      5
     ],
     "lives_lost": [
       3
@@ -5780,679 +2480,19 @@
       3
     ],
     "mean_speeds": [
-      4.558980142257431
+      0.0
     ],
     "mean_targeting": [
-      1.296774427487749
+      0.6655000645535429
     ],
     "mean_distances": [
-      190.46891219986568
+      203.13959174447413
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      825.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1769
-    ],
-    "scores": [
-      5990
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      123
-    ],
-    "asteroids_destroyed": [
-      79
-    ],
-    "episode_accuracy": [
-      0.6422764227642277
-    ],
-    "episode_score_per_min": [
-      203.1656302996043
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.3860938383267385
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.2711853854160244
-    ],
-    "mean_targeting": [
-      1.2338789425503414
-    ],
-    "mean_distances": [
-      166.7014277053157
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1769.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      2238
-    ],
-    "scores": [
-      4530
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      136
-    ],
-    "asteroids_destroyed": [
-      60
-    ],
-    "episode_accuracy": [
-      0.4411764705882353
-    ],
-    "episode_score_per_min": [
-      121.44772117962468
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      2.0241286863270775
-    ],
-    "hyperspace_used": [
-      2
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      8.875081919734571
-    ],
-    "mean_targeting": [
-      1.0974375538709338
-    ],
-    "mean_distances": [
-      195.99985932972984
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      2238.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      954
-    ],
-    "scores": [
-      3280
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      76
-    ],
-    "asteroids_destroyed": [
-      47
-    ],
-    "episode_accuracy": [
-      0.618421052631579
-    ],
-    "episode_score_per_min": [
-      206.28930817610063
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.438155136268344
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.078060332545132
-    ],
-    "mean_targeting": [
-      1.3840673187956207
-    ],
-    "mean_distances": [
-      171.28523794375397
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      954.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1029
-    ],
-    "scores": [
-      3930
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      74
-    ],
-    "asteroids_destroyed": [
-      54
-    ],
-    "episode_accuracy": [
-      0.7297297297297297
-    ],
-    "episode_score_per_min": [
-      229.15451895043734
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      3.8192419825072887
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.586517635323795
-    ],
-    "mean_targeting": [
-      1.1975469203459566
-    ],
-    "mean_distances": [
-      153.6916626862021
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1029.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1320
-    ],
-    "scores": [
-      5760
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      99
-    ],
-    "asteroids_destroyed": [
-      78
-    ],
-    "episode_accuracy": [
-      0.7878787878787878
-    ],
-    "episode_score_per_min": [
-      261.8181818181818
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.363636363636363
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.0073015666369235874
-    ],
-    "mean_targeting": [
-      1.7788302006319678
-    ],
-    "mean_distances": [
-      163.53494066199323
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1320.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1500
-    ],
-    "scores": [
-      5680
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      91
-    ],
-    "asteroids_destroyed": [
-      78
-    ],
-    "episode_accuracy": [
-      0.8571428571428571
-    ],
-    "episode_score_per_min": [
-      227.2
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.7866666666666666
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      7.196318884988626
-    ],
-    "mean_targeting": [
-      0.8663355385962869
-    ],
-    "mean_distances": [
-      196.69987054774793
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1500.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      794
-    ],
-    "scores": [
-      2240
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      41
-    ],
-    "asteroids_destroyed": [
-      31
-    ],
-    "episode_accuracy": [
-      0.7560975609756098
-    ],
-    "episode_score_per_min": [
-      169.26952141057936
-    ],
-    "episode_reward_per_min": [
-      60.00000000000001
-    ],
-    "episode_score_reward_ratio": [
-      2.8211586901763224
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      4.168086790261551
-    ],
-    "mean_targeting": [
-      0.921090916188465
-    ],
-    "mean_distances": [
-      145.45612933918483
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      794.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      748
-    ],
-    "scores": [
-      1780
-    ],
-    "levels": [
-      1
-    ],
-    "bullets_fired": [
-      35
-    ],
-    "asteroids_destroyed": [
-      25
-    ],
-    "episode_accuracy": [
-      0.7142857142857143
-    ],
-    "episode_score_per_min": [
-      142.7807486631016
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      2.379679144385027
-    ],
-    "hyperspace_used": [
-      0
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.8190973135318986
-    ],
-    "mean_targeting": [
-      1.4485114253875218
-    ],
-    "mean_distances": [
-      158.71155240859719
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      748.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      1250
-    ],
-    "scores": [
-      4880
-    ],
-    "levels": [
-      3
-    ],
-    "bullets_fired": [
-      95
-    ],
-    "asteroids_destroyed": [
-      63
-    ],
-    "episode_accuracy": [
-      0.6631578947368421
-    ],
-    "episode_score_per_min": [
-      234.24
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      3.904
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      1.1085401808857918
-    ],
-    "mean_targeting": [
-      1.5420366996853843
-    ],
-    "mean_distances": [
-      174.50880788918576
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      1250.0
-    ],
-    "episode_max_reward": [
-      1.0
-    ],
-    "episode_min_reward": [
-      1.0
-    ],
-    "episode_mean_reward": [
-      1.0
-    ],
-    "reward_rates": [
-      1.0
-    ]
-  },
-  {
-    "episodes": 1,
-    "episode_steps": [
-      763
-    ],
-    "scores": [
-      3580
-    ],
-    "levels": [
-      2
-    ],
-    "bullets_fired": [
-      56
-    ],
-    "asteroids_destroyed": [
-      49
-    ],
-    "episode_accuracy": [
-      0.875
-    ],
-    "episode_score_per_min": [
-      281.5203145478375
-    ],
-    "episode_reward_per_min": [
-      60.0
-    ],
-    "episode_score_reward_ratio": [
-      4.692005242463958
-    ],
-    "hyperspace_used": [
-      1
-    ],
-    "lives_lost": [
-      3
-    ],
-    "collisions": [
-      3
-    ],
-    "mean_speeds": [
-      0.6638655055162948
-    ],
-    "mean_targeting": [
-      1.6748943912779906
-    ],
-    "mean_distances": [
-      154.66901449699077
-    ],
-    "deaths_by": [
-      "collision"
-    ],
-    "episode_rewards": [
-      763.0
+      2835.0
     ],
     "episode_max_reward": [
       1.0
@@ -6473,31 +2513,31 @@
       908
     ],
     "scores": [
-      2710
+      1380
     ],
     "levels": [
-      2
+      1
     ],
     "bullets_fired": [
-      57
+      66
     ],
     "asteroids_destroyed": [
-      39
+      21
     ],
     "episode_accuracy": [
-      0.6842105263157895
+      0.3181818181818182
     ],
     "episode_score_per_min": [
-      179.07488986784142
+      91.18942731277534
     ],
     "episode_reward_per_min": [
       60.0
     ],
     "episode_score_reward_ratio": [
-      2.984581497797357
+      1.5198237885462555
     ],
     "hyperspace_used": [
-      1
+      2
     ],
     "lives_lost": [
       3
@@ -6506,13 +2546,13 @@
       3
     ],
     "mean_speeds": [
-      4.648285707746045
+      0.0
     ],
     "mean_targeting": [
-      1.8046734651339777
+      0.5650228242233953
     ],
     "mean_distances": [
-      173.53641339230626
+      139.84816583275767
     ],
     "deaths_by": [
       "collision"
@@ -6536,31 +2576,31 @@
   {
     "episodes": 1,
     "episode_steps": [
-      2172
+      1928
     ],
     "scores": [
-      7500
+      3360
     ],
     "levels": [
-      3
+      2
     ],
     "bullets_fired": [
-      143
+      133
     ],
     "asteroids_destroyed": [
-      100
+      46
     ],
     "episode_accuracy": [
-      0.6993006993006993
+      0.3458646616541353
     ],
     "episode_score_per_min": [
-      207.18232044198894
+      104.5643153526971
     ],
     "episode_reward_per_min": [
-      59.99999999999999
+      60.0
     ],
     "episode_score_reward_ratio": [
-      3.453038674033149
+      1.7427385892116183
     ],
     "hyperspace_used": [
       3
@@ -6572,19 +2612,3979 @@
       3
     ],
     "mean_speeds": [
-      0.9699094035880533
+      0.0
     ],
     "mean_targeting": [
-      1.3965239196442778
+      1.2832697543296134
     ],
     "mean_distances": [
-      163.35125775698384
+      202.55945740312038
     ],
     "deaths_by": [
       "collision"
     ],
     "episode_rewards": [
-      2172.0
+      1928.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1240
+    ],
+    "scores": [
+      4130
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      90
+    ],
+    "asteroids_destroyed": [
+      56
+    ],
+    "episode_accuracy": [
+      0.6222222222222222
+    ],
+    "episode_score_per_min": [
+      199.83870967741933
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.3306451612903225
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.5235721325852585
+    ],
+    "mean_distances": [
+      156.00068996404528
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1240.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1404
+    ],
+    "scores": [
+      3780
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      106
+    ],
+    "asteroids_destroyed": [
+      52
+    ],
+    "episode_accuracy": [
+      0.49056603773584906
+    ],
+    "episode_score_per_min": [
+      161.53846153846155
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.6923076923076925
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.41733309845545413
+    ],
+    "mean_distances": [
+      175.45196852824336
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1404.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      5000
+    ],
+    "scores": [
+      7900
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      347
+    ],
+    "asteroids_destroyed": [
+      104
+    ],
+    "episode_accuracy": [
+      0.29971181556195964
+    ],
+    "episode_score_per_min": [
+      94.80000000000001
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.58
+    ],
+    "hyperspace_used": [
+      8
+    ],
+    "lives_lost": [
+      2
+    ],
+    "collisions": [
+      2
+    ],
+    "mean_speeds": [
+      0.06932982802391052
+    ],
+    "mean_targeting": [
+      0.6774036605638716
+    ],
+    "mean_distances": [
+      169.24683683574705
+    ],
+    "deaths_by": [
+      "other"
+    ],
+    "episode_rewards": [
+      5000.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      4245
+    ],
+    "scores": [
+      8900
+    ],
+    "levels": [
+      4
+    ],
+    "bullets_fired": [
+      293
+    ],
+    "asteroids_destroyed": [
+      120
+    ],
+    "episode_accuracy": [
+      0.40955631399317405
+    ],
+    "episode_score_per_min": [
+      125.79505300353357
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.0965842167255593
+    ],
+    "hyperspace_used": [
+      6
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0673751576589805
+    ],
+    "mean_distances": [
+      215.8533285185986
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      4245.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      984
+    ],
+    "scores": [
+      2220
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      69
+    ],
+    "asteroids_destroyed": [
+      30
+    ],
+    "episode_accuracy": [
+      0.43478260869565216
+    ],
+    "episode_score_per_min": [
+      135.3658536585366
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.2560975609756095
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.5367857165689977
+    ],
+    "mean_distances": [
+      188.1225248779754
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      984.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2410
+    ],
+    "scores": [
+      6700
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      180
+    ],
+    "asteroids_destroyed": [
+      90
+    ],
+    "episode_accuracy": [
+      0.5
+    ],
+    "episode_score_per_min": [
+      166.80497925311204
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.780082987551867
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      1.2736918276647315
+    ],
+    "mean_targeting": [
+      1.0683539283325452
+    ],
+    "mean_distances": [
+      196.20920952592388
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2410.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1419
+    ],
+    "scores": [
+      3780
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      111
+    ],
+    "asteroids_destroyed": [
+      52
+    ],
+    "episode_accuracy": [
+      0.46846846846846846
+    ],
+    "episode_score_per_min": [
+      159.83086680761102
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.66384778012685
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0003903720370282
+    ],
+    "mean_distances": [
+      133.8476055935054
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1419.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1808
+    ],
+    "scores": [
+      3480
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      125
+    ],
+    "asteroids_destroyed": [
+      48
+    ],
+    "episode_accuracy": [
+      0.384
+    ],
+    "episode_score_per_min": [
+      115.48672566371681
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.924778761061947
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.8979512831056716
+    ],
+    "mean_distances": [
+      200.18229954071967
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1808.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      725
+    ],
+    "scores": [
+      1980
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      45
+    ],
+    "asteroids_destroyed": [
+      27
+    ],
+    "episode_accuracy": [
+      0.6
+    ],
+    "episode_score_per_min": [
+      163.86206896551724
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.731034482758621
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.5721210613685582
+    ],
+    "mean_distances": [
+      138.27024141187684
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      725.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1939
+    ],
+    "scores": [
+      6130
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      138
+    ],
+    "asteroids_destroyed": [
+      83
+    ],
+    "episode_accuracy": [
+      0.6014492753623188
+    ],
+    "episode_score_per_min": [
+      189.6854048478597
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      3.1614234141309954
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.48300886297115286
+    ],
+    "mean_targeting": [
+      0.42211213236920003
+    ],
+    "mean_distances": [
+      201.68892419092288
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1939.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1381
+    ],
+    "scores": [
+      3780
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      103
+    ],
+    "asteroids_destroyed": [
+      52
+    ],
+    "episode_accuracy": [
+      0.5048543689320388
+    ],
+    "episode_score_per_min": [
+      164.22881969587257
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.737146994931209
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1817321751623784
+    ],
+    "mean_distances": [
+      170.08635285051838
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1381.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3521
+    ],
+    "scores": [
+      1980
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      242
+    ],
+    "asteroids_destroyed": [
+      27
+    ],
+    "episode_accuracy": [
+      0.1115702479338843
+    ],
+    "episode_score_per_min": [
+      33.74041465492758
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      0.5623402442487929
+    ],
+    "hyperspace_used": [
+      6
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.7041163287846673
+    ],
+    "mean_distances": [
+      217.0266006204803
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3521.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      588
+    ],
+    "scores": [
+      1260
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      41
+    ],
+    "asteroids_destroyed": [
+      18
+    ],
+    "episode_accuracy": [
+      0.43902439024390244
+    ],
+    "episode_score_per_min": [
+      128.57142857142856
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.142857142857143
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.6045855104518529
+    ],
+    "mean_distances": [
+      137.37739086780192
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      588.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1863
+    ],
+    "scores": [
+      5850
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      141
+    ],
+    "asteroids_destroyed": [
+      80
+    ],
+    "episode_accuracy": [
+      0.5673758865248227
+    ],
+    "episode_score_per_min": [
+      188.40579710144928
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.140096618357488
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.6030652722637146
+    ],
+    "mean_distances": [
+      167.84601288708834
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1863.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2103
+    ],
+    "scores": [
+      5710
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      155
+    ],
+    "asteroids_destroyed": [
+      77
+    ],
+    "episode_accuracy": [
+      0.4967741935483871
+    ],
+    "episode_score_per_min": [
+      162.91012838801714
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.715168806466952
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.7057368017056532
+    ],
+    "mean_distances": [
+      174.14175250455386
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2103.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2231
+    ],
+    "scores": [
+      5690
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      165
+    ],
+    "asteroids_destroyed": [
+      76
+    ],
+    "episode_accuracy": [
+      0.46060606060606063
+    ],
+    "episode_score_per_min": [
+      153.02554908112955
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      2.5504258180188257
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1280779293475673
+    ],
+    "mean_distances": [
+      152.93986701166293
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2231.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1485
+    ],
+    "scores": [
+      3360
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      102
+    ],
+    "asteroids_destroyed": [
+      46
+    ],
+    "episode_accuracy": [
+      0.45098039215686275
+    ],
+    "episode_score_per_min": [
+      135.75757575757575
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.2626262626262625
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.905238337709382
+    ],
+    "mean_distances": [
+      190.0850072586535
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1485.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1083
+    ],
+    "scores": [
+      2760
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      77
+    ],
+    "asteroids_destroyed": [
+      39
+    ],
+    "episode_accuracy": [
+      0.5064935064935064
+    ],
+    "episode_score_per_min": [
+      152.9085872576177
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.548476454293629
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.6464937127748486
+    ],
+    "mean_distances": [
+      206.41397213622918
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1083.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      923
+    ],
+    "scores": [
+      2630
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      71
+    ],
+    "asteroids_destroyed": [
+      38
+    ],
+    "episode_accuracy": [
+      0.5352112676056338
+    ],
+    "episode_score_per_min": [
+      170.96424702058505
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.8494041170097506
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.2665624468550005
+    ],
+    "mean_targeting": [
+      0.9304811395374147
+    ],
+    "mean_distances": [
+      166.56700408401088
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      923.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2785
+    ],
+    "scores": [
+      4380
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      186
+    ],
+    "asteroids_destroyed": [
+      59
+    ],
+    "episode_accuracy": [
+      0.3172043010752688
+    ],
+    "episode_score_per_min": [
+      94.36265709156194
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.5727109515260322
+    ],
+    "hyperspace_used": [
+      5
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.10570209423879319
+    ],
+    "mean_targeting": [
+      0.6596154310700201
+    ],
+    "mean_distances": [
+      178.7170840143749
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2785.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1338
+    ],
+    "scores": [
+      2710
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      96
+    ],
+    "asteroids_destroyed": [
+      38
+    ],
+    "episode_accuracy": [
+      0.3958333333333333
+    ],
+    "episode_score_per_min": [
+      121.52466367713004
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.0254110612855007
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.6477680268262151
+    ],
+    "mean_distances": [
+      189.7744433054794
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1338.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1691
+    ],
+    "scores": [
+      3460
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      129
+    ],
+    "asteroids_destroyed": [
+      47
+    ],
+    "episode_accuracy": [
+      0.3643410852713178
+    ],
+    "episode_score_per_min": [
+      122.76759314015375
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.046126552335896
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.2778749332263722
+    ],
+    "mean_targeting": [
+      0.925914021591089
+    ],
+    "mean_distances": [
+      168.78337819953427
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1691.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1390
+    ],
+    "scores": [
+      5690
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      110
+    ],
+    "asteroids_destroyed": [
+      76
+    ],
+    "episode_accuracy": [
+      0.6909090909090909
+    ],
+    "episode_score_per_min": [
+      245.6115107913669
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      4.093525179856115
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.039990288116501
+    ],
+    "mean_distances": [
+      144.0276417903293
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1390.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2301
+    ],
+    "scores": [
+      3780
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      167
+    ],
+    "asteroids_destroyed": [
+      53
+    ],
+    "episode_accuracy": [
+      0.31736526946107785
+    ],
+    "episode_score_per_min": [
+      98.56584093872229
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.6427640156453716
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.2297979185323784
+    ],
+    "mean_distances": [
+      163.1668284924955
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2301.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1286
+    ],
+    "scores": [
+      3480
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      100
+    ],
+    "asteroids_destroyed": [
+      48
+    ],
+    "episode_accuracy": [
+      0.48
+    ],
+    "episode_score_per_min": [
+      162.36391912908243
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.7060653188180406
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.460411637823941
+    ],
+    "mean_distances": [
+      157.23750632936827
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1286.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1560
+    ],
+    "scores": [
+      1980
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      104
+    ],
+    "asteroids_destroyed": [
+      27
+    ],
+    "episode_accuracy": [
+      0.25961538461538464
+    ],
+    "episode_score_per_min": [
+      76.15384615384616
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.2692307692307692
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.8673854555968649
+    ],
+    "mean_distances": [
+      160.31660425310884
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1560.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1920
+    ],
+    "scores": [
+      5530
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      146
+    ],
+    "asteroids_destroyed": [
+      76
+    ],
+    "episode_accuracy": [
+      0.5205479452054794
+    ],
+    "episode_score_per_min": [
+      172.8125
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.8802083333333335
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0421815680287974
+    ],
+    "mean_distances": [
+      164.6546819633395
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1920.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      4569
+    ],
+    "scores": [
+      8440
+    ],
+    "levels": [
+      4
+    ],
+    "bullets_fired": [
+      336
+    ],
+    "asteroids_destroyed": [
+      116
+    ],
+    "episode_accuracy": [
+      0.34523809523809523
+    ],
+    "episode_score_per_min": [
+      110.8338804990151
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      1.8472313416502517
+    ],
+    "hyperspace_used": [
+      7
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.11463096563052651
+    ],
+    "mean_targeting": [
+      0.9438293293986656
+    ],
+    "mean_distances": [
+      198.95470847390766
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      4569.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2046
+    ],
+    "scores": [
+      3530
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      154
+    ],
+    "asteroids_destroyed": [
+      49
+    ],
+    "episode_accuracy": [
+      0.3181818181818182
+    ],
+    "episode_score_per_min": [
+      103.51906158357771
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.7253176930596286
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.086635033101907
+    ],
+    "mean_distances": [
+      230.81346264173357
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2046.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1007
+    ],
+    "scores": [
+      2370
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      71
+    ],
+    "asteroids_destroyed": [
+      32
+    ],
+    "episode_accuracy": [
+      0.4507042253521127
+    ],
+    "episode_score_per_min": [
+      141.21151936444883
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.3535253227408144
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0324421094286995
+    ],
+    "mean_distances": [
+      161.4387581259078
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1007.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1522
+    ],
+    "scores": [
+      2390
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      111
+    ],
+    "asteroids_destroyed": [
+      34
+    ],
+    "episode_accuracy": [
+      0.3063063063063063
+    ],
+    "episode_score_per_min": [
+      94.21813403416557
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.5703022339027595
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.7090959022514297
+    ],
+    "mean_targeting": [
+      0.6200764717543246
+    ],
+    "mean_distances": [
+      167.59596324300975
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1522.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1217
+    ],
+    "scores": [
+      2740
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      85
+    ],
+    "asteroids_destroyed": [
+      38
+    ],
+    "episode_accuracy": [
+      0.4470588235294118
+    ],
+    "episode_score_per_min": [
+      135.08627773212817
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.2514379622021363
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.1398405316748772
+    ],
+    "mean_targeting": [
+      0.6067465818469615
+    ],
+    "mean_distances": [
+      151.30971418628897
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1217.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2548
+    ],
+    "scores": [
+      5230
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      186
+    ],
+    "asteroids_destroyed": [
+      72
+    ],
+    "episode_accuracy": [
+      0.3870967741935484
+    ],
+    "episode_score_per_min": [
+      123.15541601255886
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.0525902668759812
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9019192852544086
+    ],
+    "mean_distances": [
+      189.48725765875602
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2548.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1761
+    ],
+    "scores": [
+      5410
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      135
+    ],
+    "asteroids_destroyed": [
+      73
+    ],
+    "episode_accuracy": [
+      0.5407407407407407
+    ],
+    "episode_score_per_min": [
+      184.32708688245313
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.0721181147075525
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.16161776410626255
+    ],
+    "mean_targeting": [
+      1.022207559727789
+    ],
+    "mean_distances": [
+      185.37728529938659
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1761.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1518
+    ],
+    "scores": [
+      3080
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      114
+    ],
+    "asteroids_destroyed": [
+      45
+    ],
+    "episode_accuracy": [
+      0.39473684210526316
+    ],
+    "episode_score_per_min": [
+      121.73913043478261
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.028985507246377
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0485130055561394
+    ],
+    "mean_distances": [
+      187.9477122577672
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1518.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1187
+    ],
+    "scores": [
+      3160
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      97
+    ],
+    "asteroids_destroyed": [
+      44
+    ],
+    "episode_accuracy": [
+      0.4536082474226804
+    ],
+    "episode_score_per_min": [
+      159.73041280539172
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.662173546756529
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.2929139369822722
+    ],
+    "mean_distances": [
+      186.38013228794065
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1187.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1181
+    ],
+    "scores": [
+      1980
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      82
+    ],
+    "asteroids_destroyed": [
+      27
+    ],
+    "episode_accuracy": [
+      0.32926829268292684
+    ],
+    "episode_score_per_min": [
+      100.59271803556308
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.676545300592718
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0233100640380857
+    ],
+    "mean_distances": [
+      188.85810288333064
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1181.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3513
+    ],
+    "scores": [
+      5610
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      252
+    ],
+    "asteroids_destroyed": [
+      76
+    ],
+    "episode_accuracy": [
+      0.30158730158730157
+    ],
+    "episode_score_per_min": [
+      95.81554227156278
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.596925704526046
+    ],
+    "hyperspace_used": [
+      5
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.010764318792726829
+    ],
+    "mean_targeting": [
+      0.9488217435955196
+    ],
+    "mean_distances": [
+      244.23503641160667
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3513.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1424
+    ],
+    "scores": [
+      3930
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      109
+    ],
+    "asteroids_destroyed": [
+      54
+    ],
+    "episode_accuracy": [
+      0.4954128440366973
+    ],
+    "episode_score_per_min": [
+      165.58988764044943
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.759831460674157
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.2970663037438899
+    ],
+    "mean_distances": [
+      197.08774858207627
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1424.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1993
+    ],
+    "scores": [
+      3660
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      143
+    ],
+    "asteroids_destroyed": [
+      49
+    ],
+    "episode_accuracy": [
+      0.34265734265734266
+    ],
+    "episode_score_per_min": [
+      110.18564977420972
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.836427496236829
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.5269359186837498
+    ],
+    "mean_targeting": [
+      0.7075348034738667
+    ],
+    "mean_distances": [
+      187.53140814180097
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1993.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      833
+    ],
+    "scores": [
+      2510
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      58
+    ],
+    "asteroids_destroyed": [
+      36
+    ],
+    "episode_accuracy": [
+      0.6206896551724138
+    ],
+    "episode_score_per_min": [
+      180.79231692677072
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.013205282112845
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.32546560237362837
+    ],
+    "mean_distances": [
+      164.08169926783273
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      833.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3243
+    ],
+    "scores": [
+      5510
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      241
+    ],
+    "asteroids_destroyed": [
+      75
+    ],
+    "episode_accuracy": [
+      0.3112033195020747
+    ],
+    "episode_score_per_min": [
+      101.94264569842738
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.6990440949737897
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9294035369168073
+    ],
+    "mean_distances": [
+      211.10716599213205
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3243.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2796
+    ],
+    "scores": [
+      5070
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      203
+    ],
+    "asteroids_destroyed": [
+      67
+    ],
+    "episode_accuracy": [
+      0.33004926108374383
+    ],
+    "episode_score_per_min": [
+      108.79828326180257
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.8133047210300428
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.08790214091688607
+    ],
+    "mean_targeting": [
+      0.7762060583791817
+    ],
+    "mean_distances": [
+      194.2286906475141
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2796.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      894
+    ],
+    "scores": [
+      3480
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      71
+    ],
+    "asteroids_destroyed": [
+      48
+    ],
+    "episode_accuracy": [
+      0.676056338028169
+    ],
+    "episode_score_per_min": [
+      233.55704697986576
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.8926174496644297
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0435518367148695
+    ],
+    "mean_distances": [
+      155.74872094007068
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      894.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2374
+    ],
+    "scores": [
+      7700
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      171
+    ],
+    "asteroids_destroyed": [
+      102
+    ],
+    "episode_accuracy": [
+      0.5964912280701754
+    ],
+    "episode_score_per_min": [
+      194.60825610783485
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      3.2434709351305813
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.19435915714341648
+    ],
+    "mean_targeting": [
+      1.1759133785202665
+    ],
+    "mean_distances": [
+      187.18415204569973
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2374.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2824
+    ],
+    "scores": [
+      9990
+    ],
+    "levels": [
+      4
+    ],
+    "bullets_fired": [
+      220
+    ],
+    "asteroids_destroyed": [
+      134
+    ],
+    "episode_accuracy": [
+      0.6090909090909091
+    ],
+    "episode_score_per_min": [
+      212.25212464589234
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      3.5375354107648724
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.71310102504064
+    ],
+    "mean_distances": [
+      160.32985499376954
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2824.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      577
+    ],
+    "scores": [
+      1380
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      45
+    ],
+    "asteroids_destroyed": [
+      20
+    ],
+    "episode_accuracy": [
+      0.4444444444444444
+    ],
+    "episode_score_per_min": [
+      143.5008665511265
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.3916811091854417
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0987397748680057
+    ],
+    "mean_distances": [
+      148.2997123464737
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      577.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1988
+    ],
+    "scores": [
+      6150
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      151
+    ],
+    "asteroids_destroyed": [
+      85
+    ],
+    "episode_accuracy": [
+      0.5629139072847682
+    ],
+    "episode_score_per_min": [
+      185.61368209255534
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      3.0935613682092553
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.7537759657672602
+    ],
+    "mean_distances": [
+      185.31160489057558
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1988.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1189
+    ],
+    "scores": [
+      2960
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      91
+    ],
+    "asteroids_destroyed": [
+      42
+    ],
+    "episode_accuracy": [
+      0.46153846153846156
+    ],
+    "episode_score_per_min": [
+      149.36921783010933
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.4894869638351556
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.2612485454482458
+    ],
+    "mean_distances": [
+      172.17000012504926
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1189.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1405
+    ],
+    "scores": [
+      3730
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      110
+    ],
+    "asteroids_destroyed": [
+      52
+    ],
+    "episode_accuracy": [
+      0.4727272727272727
+    ],
+    "episode_score_per_min": [
+      159.288256227758
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.6548042704626336
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.9015028992160173
+    ],
+    "mean_distances": [
+      190.53762005486246
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1405.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      3961
+    ],
+    "scores": [
+      7200
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      284
+    ],
+    "asteroids_destroyed": [
+      96
+    ],
+    "episode_accuracy": [
+      0.3380281690140845
+    ],
+    "episode_score_per_min": [
+      109.06336783640495
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.8177227972734158
+    ],
+    "hyperspace_used": [
+      6
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.10080895574593658
+    ],
+    "mean_targeting": [
+      0.7044710629352997
+    ],
+    "mean_distances": [
+      197.91803839023586
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      3961.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      949
+    ],
+    "scores": [
+      2830
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      77
+    ],
+    "asteroids_destroyed": [
+      41
+    ],
+    "episode_accuracy": [
+      0.5324675324675324
+    ],
+    "episode_score_per_min": [
+      178.92518440463647
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      2.982086406743941
+    ],
+    "hyperspace_used": [
+      1
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.4522518217286486
+    ],
+    "mean_distances": [
+      148.3607114784934
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      949.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1407
+    ],
+    "scores": [
+      2690
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      97
+    ],
+    "asteroids_destroyed": [
+      38
+    ],
+    "episode_accuracy": [
+      0.3917525773195876
+    ],
+    "episode_score_per_min": [
+      114.71215351812367
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.911869225302061
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.7795460669676229
+    ],
+    "mean_distances": [
+      173.11614281485438
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1407.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2309
+    ],
+    "scores": [
+      2930
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      168
+    ],
+    "asteroids_destroyed": [
+      42
+    ],
+    "episode_accuracy": [
+      0.25
+    ],
+    "episode_score_per_min": [
+      76.13685578172368
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.2689475963620616
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.5591288087261718
+    ],
+    "mean_distances": [
+      199.97666512358248
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2309.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      791
+    ],
+    "scores": [
+      830
+    ],
+    "levels": [
+      1
+    ],
+    "bullets_fired": [
+      54
+    ],
+    "asteroids_destroyed": [
+      14
+    ],
+    "episode_accuracy": [
+      0.25925925925925924
+    ],
+    "episode_score_per_min": [
+      62.9582806573957
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.0493046776232617
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      0.5091547546955355
+    ],
+    "mean_distances": [
+      142.8037499047044
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      791.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1468
+    ],
+    "scores": [
+      2930
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      113
+    ],
+    "asteroids_destroyed": [
+      43
+    ],
+    "episode_accuracy": [
+      0.3805309734513274
+    ],
+    "episode_score_per_min": [
+      119.75476839237058
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      1.9959128065395095
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.08558127435294743
+    ],
+    "mean_targeting": [
+      1.0493019569211766
+    ],
+    "mean_distances": [
+      182.05995755396344
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1468.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2458
+    ],
+    "scores": [
+      2860
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      183
+    ],
+    "asteroids_destroyed": [
+      40
+    ],
+    "episode_accuracy": [
+      0.2185792349726776
+    ],
+    "episode_score_per_min": [
+      69.81285598047192
+    ],
+    "episode_reward_per_min": [
+      60.0
+    ],
+    "episode_score_reward_ratio": [
+      1.1635475996745321
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.0366485909892287
+    ],
+    "mean_distances": [
+      211.7378377769037
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2458.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      1472
+    ],
+    "scores": [
+      4180
+    ],
+    "levels": [
+      2
+    ],
+    "bullets_fired": [
+      106
+    ],
+    "asteroids_destroyed": [
+      57
+    ],
+    "episode_accuracy": [
+      0.5377358490566038
+    ],
+    "episode_score_per_min": [
+      170.3804347826087
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.839673913043478
+    ],
+    "hyperspace_used": [
+      3
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.1375327941931754
+    ],
+    "mean_distances": [
+      145.50794772111254
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      1472.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2006
+    ],
+    "scores": [
+      6450
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      162
+    ],
+    "asteroids_destroyed": [
+      88
+    ],
+    "episode_accuracy": [
+      0.5432098765432098
+    ],
+    "episode_score_per_min": [
+      192.92123629112663
+    ],
+    "episode_reward_per_min": [
+      60.00000000000001
+    ],
+    "episode_score_reward_ratio": [
+      3.2153539381854435
+    ],
+    "hyperspace_used": [
+      2
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.0
+    ],
+    "mean_targeting": [
+      1.2986644142756005
+    ],
+    "mean_distances": [
+      152.89420596560927
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2006.0
+    ],
+    "episode_max_reward": [
+      1.0
+    ],
+    "episode_min_reward": [
+      1.0
+    ],
+    "episode_mean_reward": [
+      1.0
+    ],
+    "reward_rates": [
+      1.0
+    ]
+  },
+  {
+    "episodes": 1,
+    "episode_steps": [
+      2300
+    ],
+    "scores": [
+      6300
+    ],
+    "levels": [
+      3
+    ],
+    "bullets_fired": [
+      165
+    ],
+    "asteroids_destroyed": [
+      86
+    ],
+    "episode_accuracy": [
+      0.5212121212121212
+    ],
+    "episode_score_per_min": [
+      164.3478260869565
+    ],
+    "episode_reward_per_min": [
+      59.99999999999999
+    ],
+    "episode_score_reward_ratio": [
+      2.739130434782609
+    ],
+    "hyperspace_used": [
+      4
+    ],
+    "lives_lost": [
+      3
+    ],
+    "collisions": [
+      3
+    ],
+    "mean_speeds": [
+      0.17004376355720602
+    ],
+    "mean_targeting": [
+      1.019602005500356
+    ],
+    "mean_distances": [
+      167.13442218826208
+    ],
+    "deaths_by": [
+      "collision"
+    ],
+    "episode_rewards": [
+      2300.0
     ],
     "episode_max_reward": [
       1.0

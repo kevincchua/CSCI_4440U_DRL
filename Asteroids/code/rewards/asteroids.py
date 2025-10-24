@@ -129,7 +129,7 @@ def survivor(score_inc: bool, terminated: bool, info: dict, score: int) -> float
         return -10.0  # Heavy death penalty
     r = 0.1  # Base survival bonus per frame
     closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
-    r += distance_band_bonus_multi(closest_3, 150, 400, 0.005)
+    r += distance_band_bonus_multi(closest_3, 200, 500, 0.005)
     r += info.get("score_delta", 0) * 0.2
     r += info.get("asteroids_destroyed", 0) * 2.0
     if info.get("hyperspace_used", False):
@@ -146,16 +146,16 @@ def hunter(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
     if terminated:
         return -50.0
     r = 0.01
-
     fired = info.get("bullets_fired", 0)
     ship_speed = info.get("ship_speed", 0.0)
     targeting = info.get("targeting_bonus", 0.0)
-
+    distance = info.get("distance_to_nearest", 800.0)
+    d_bonus = distance_band_bonus_multi(distance, 100, 300, 0.01)
     if fired > 0:
         if targeting > 3.0:
-            r += (targeting ** 2) * fired
+            r += (targeting ** 2) * fired * d_bonus
         elif targeting > 1.0:
-            r += targeting * fired
+            r += targeting * fired * d_bonus
     # else:
     #     r += info.get("targeting_bonus_delta", 0.0)
     r += info.get("asteroids_destroyed", 0) * 5.0
@@ -176,32 +176,25 @@ def speedrunner(score_inc: bool, terminated: bool, info: dict, score: int) -> fl
     if terminated:
         return -3.0
     r = -0.001  # Time pressure - every frame costs a small amount
-    
     fired = info.get("bullets_fired", 0)
     targeting = info.get("targeting_bonus", 0.0)
     ship_speed = info.get("ship_speed", 0.0) 
     # Level completion (main goal for speedrunner)
     if info.get("level_completed", False):
         r += 50.0
-    
     # Asteroid destruction (progress toward level completion)
     r += info.get("asteroids_destroyed", 0) * 5.0
-    
     # Movement bonus (encourage active play)
-    r += ship_speed * 0.2
-    
+    r += ship_speed * 0.05
     # Score momentum (maintain forward progress)
-    r += info.get("score_delta", 0) * 0.25
-    
+    r += info.get("score_delta", 0) * 0.5
     # Targeting bonus (efficient aiming saves time)
     r += info.get("targeting_bonus_delta", 0.0)
-    
     if fired > 0:
         r += targeting
     # Distance bonus (moderate engagement distance - not too far from action)
     # distance = info.get("distance_to_nearest", 800.0)
     # r += distance_band_bonus_single(distance, 80, 250, 0.008)
-    
     return r
 
 # ---- Reference reward functions -----------------------------------
