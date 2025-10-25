@@ -28,7 +28,7 @@ eval_freq: 5000  # evaluate every N steps (EvalCallback)
 save_freq: 10000  # save model every N steps (CheckpointCallback)
 
 device: cpu       # cuda or cpu
-n_envs: 6  # 1 for cpu or 16 gpu , or whatever you want
+n_envs: 1  # 1 for cpu or 16 gpu , or whatever you want
 
 # null values mean "no override"
 model: null     # optional single selection

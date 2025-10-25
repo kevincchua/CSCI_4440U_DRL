@@ -127,7 +127,7 @@ def distance_band_bonus_multi(closest_distances, ideal_min=100, ideal_max=300, p
 def survivor(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
     if terminated:
         return -10.0  # Heavy death penalty
-    r = 0.1  # Base survival bonus per frame
+    r = 0.25  # Base survival bonus per frame
     closest_3 = info.get("distances_to_closest_3", [800.0, 800.0, 800.0])
     r += distance_band_bonus_multi(closest_3, 200, 500, 0.005)
     r += info.get("score_delta", 0) * 0.2
@@ -150,7 +150,7 @@ def hunter(score_inc: bool, terminated: bool, info: dict, score: int) -> float:
     ship_speed = info.get("ship_speed", 0.0)
     targeting = info.get("targeting_bonus", 0.0)
     distance = info.get("distance_to_nearest", 800.0)
-    d_bonus = distance_band_bonus_multi(distance, 100, 300, 0.01)
+    d_bonus = distance_band_bonus_single(distance, 100, 300, 0.01)
     if fired > 0:
         if targeting > 3.0:
             r += (targeting ** 2) * fired * d_bonus
@@ -183,7 +183,7 @@ def speedrunner(score_inc: bool, terminated: bool, info: dict, score: int) -> fl
     if info.get("level_completed", False):
         r += 50.0
     # Asteroid destruction (progress toward level completion)
-    r += info.get("asteroids_destroyed", 0) * 5.0
+    r += info.get("asteroids_destroyed", 0) * 10.0
     # Movement bonus (encourage active play)
     r += ship_speed * 0.05
     # Score momentum (maintain forward progress)
