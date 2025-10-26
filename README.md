@@ -40,7 +40,6 @@ This repo is designed for research, experimentation, and benchmarking of RL agen
 - `notebooks/` — Jupyter exploratory analysis and reports
 - `menu.py` — Custom UI/menu logic
 - `requirements.txt` — Project dependencies
-- `pyproject.toml` — Python project metadata/config
 - SFX assets (`chime.wav`)
 
 **Octogone-DRL/ Subfolders:**
@@ -121,6 +120,8 @@ General steps:
 
 `python menu.py` or `pip install -r requirements.txt`
 
+To run the project run the menu options.
+
 **For Octogone-DRL**
 
 `cd Octogone-DRL`
@@ -128,6 +129,8 @@ General steps:
 `python -m venv venv`
 
 `source venv/bin/activate`
+
+`venv/scripts/activate`
 
 `pip install -r requirements.txt`
 
