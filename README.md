@@ -134,6 +134,37 @@ To run the project run the menu options.
 
 `pip install -r requirements.txt`
 
+## To train an agent, you use the `src/train.py` script. 
+
+```bash
+python src/train.py --config configs/ppo_speedrunner.yaml
+```
+
+This command will train a PPO agent with the "speedrunner" reward persona for 100,000 timesteps. The trained model will be saved as `models/ppo_speedrunner.zip`.
+
+## To evaluate a trained agent, you use the `src/evaluate.py` script.
+
+```bash
+python src/evaluate.py --config configs/ppo_speedrunner.yaml --model models/ppo_speedrunner.zip --episodes 20
+```
+
+This will run 20 episodes of evaluation and save the results to the `logs/` directory.
+
+### Rendering
+
+*   `--render`: Use this flag to watch the agent play in a `pygame` window.
+    ```bash
+    python src/evaluate.py --config configs/ppo_speedrunner.yaml --model models/ppo_speedrunner.zip --episodes 5 --render
+    ```
+
+## Analytics
+
+The `analytics/generate_plots.py` script generates plots from the evaluation data.
+
+```bash
+python3 analytics/generate_plots.py
+```
+
 ---
 
 ## Contributors
