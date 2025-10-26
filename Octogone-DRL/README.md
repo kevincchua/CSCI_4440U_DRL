@@ -64,5 +64,5 @@ This will run 20 episodes of evaluation and save the results to the `logs/` dire
 The `analytics/generate_plots.py` script generates plots from the evaluation data.
 
 ```bash
-python3 analytics/generate_plots.py
+python analytics/generate_plots.py
 ```
