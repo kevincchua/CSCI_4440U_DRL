@@ -43,7 +43,6 @@ This repo is designed for research, experimentation, and benchmarking of RL agen
 - SFX assets (`chime.wav`)
 
 **Octogone-DRL/ Subfolders:**
-- `analysis/` — Analytics scripts and graph outputs
 - `analytics/` — CSV summary statistics, visualizations
 - `configs/` — YAML configuration files
 - `envs/` — Custom RL environments (OctogoneEnv)
@@ -52,6 +51,7 @@ This repo is designed for research, experimentation, and benchmarking of RL agen
 - `src/` — Main entry points for training/evaluation
 - `tests/` — Environment unit tests
 - `requirements.txt` — dependencies
+- `analysis_notebook.ipynb` — Jupyter analysis and reports
 
 ---
 
@@ -71,6 +71,8 @@ Full source in `Asteroids/code/`, supporting training and evaluation with analyt
 
 A procedurally generated platformer implemented as a Gymnasium-compatible environment (`OctogoneEnv`). Supports curriculum learning, evaluation, analytics, visualization, and various configurations via YAML.
 All code and analytics in `Octogone-DRL/`.
+- **Speedrunner:** Rewards for completing the level, scaled based on time
+- **Survivor:** Rewards for exploring the level and staying alive
 
 ---
 
@@ -85,7 +87,7 @@ All code and analytics in `Octogone-DRL/`.
 
 ### Octogone-DRL
 
-- **analysis/** & **analytics/**: Graph generation scripts, episode analytics in CSV/JSON.
+- **analytics/**: Graph generation scripts, episode analytics in CSV/JSON.
 - **configs/**: All YAML agent and environment configs (easy hyperparameter sweeps).
 - **envs/**: Custom environment for procedural platformer RL (fully modular).
 - **logs/**: Training/evaluation results.
@@ -93,6 +95,7 @@ All code and analytics in `Octogone-DRL/`.
 - **src/**: Train/evaluate pipeline scripts.
 - **tests/**: Unit tests for reliability.
 - **requirements.txt**: Dependency list.
+- **analysis_notebook.ipynb**: Agent performance analysis 
 
 ### .gitignore
 
@@ -162,7 +165,7 @@ This will run 20 episodes of evaluation and save the results to the `logs/` dire
 The `analytics/generate_plots.py` script generates plots from the evaluation data.
 
 ```bash
-python3 analytics/generate_plots.py
+python analytics/generate_plots.py
 ```
 
 ---
